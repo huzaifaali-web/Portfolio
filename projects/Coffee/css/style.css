@@ -1,0 +1,347 @@
+.section-top{
+    background-color: #926453;
+    height: 80px;
+    padding: 10px 0px;
+}
+img.logo {
+    width: 175px;
+    padding-top: 18px;
+}
+.Naviation ul{
+    display:flex ;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 8px;
+}
+.Naviation li{
+    list-style: none;
+    color: white;
+    font-size: 33px;
+    font-family: "Lato Semibold";
+}
+.Coffe-section1{
+    background-image:url(../image/Background-img.png) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+}
+.Main-heading h1{
+    font-size: 100px;
+    font-family: "Satisfy",sans-serif;
+    color: #9baf6d;
+    padding-top: 40px;
+}
+.Main-heading p{
+    text-transform: uppercase;
+     color: #9baf6d;
+     font-size: 40px;
+     font-family: "Lato Semibold",sans-serif;
+     letter-spacing: 2px;
+     padding-top:20px ;
+     margin-bottom: 40px;
+     letter-spacing: 4px;
+} 
+.Main-heading span{
+    padding: 12px 29px;
+    background-color: #8f5540;
+    border-radius: 87px;
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+}
+.About-us{
+    background-color: #dec89d;
+}
+.About-inf{
+    padding: 80px 0px;
+}
+.About-inf h2{
+    font-size: 60px;
+    font-family: "Satisfy",sans-serif;
+    margin-left: 80px;
+    color: #8f5540;
+}
+.About-inf p{
+     width: 504px;
+     margin-left: 80px;
+      margin-bottom: 40px;
+    color: #8f5540;
+}
+.About-inf a{
+     text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Lato bold", sans-serif;
+    padding: 10px 25px;
+    border-radius: 51px;
+    background-color: #8f5540;
+    margin-left: 80px;
+}
+.html{
+    overflow-x: hidden;
+}
+.Coffe-pic1{
+    height: 100vh;
+    width: 100%;
+}
+.popular-menu h2{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: "Satisfy",sans-serif;
+    margin-bottom: 20px;
+}
+.popular-menu p{
+     text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Lato bold",sans-serif;
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+.Cards{
+    background-color: #e19063;
+    padding: 70px;
+}
+.Cards-Menu img{
+    width: 135px;
+    border-radius: 50%;
+}
+.Cards-Menu{
+    padding-left:50px;
+}
+.Cards-Menu h5{
+    color: white;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-left: 23px;
+    font-family: "lato bold", sans-serif;
+    font-weight: 500;
+}
+.Cards-Menu p{
+    color: white;
+    font-size: 8px;
+     font-family: "lato bold", sans-serif;
+    
+}
+.Cards-Menu-2{
+    margin-top: 50px;
+}
+.Cards-Menu-2 img{
+    width: 135px;
+    border-radius: 50%;
+}
+.Cards-Menu-2{
+    padding-left:50px;
+}
+.Cards-Menu-2 h5{
+    color: white;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-left: 23px;
+    font-family: "lato bold", sans-serif;
+    font-weight: 500;
+}
+.Cards-Menu-2 p{
+    color: white;
+    font-size: 8px;
+     font-family: "lato bold", sans-serif;  
+}
+.More-menu button{
+    border: none;
+    color: white;
+    background-color: #8f5540;
+    padding: 7px 17px;
+    border-radius: 28px;
+    font-weight: 500;
+}
+.More-menu {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 55px;
+}
+.Peace-on-earth{
+     text-align: center;
+   background-image:url(../image/Background-img2.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.Peace-on-earth::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #a5553aa8;
+    z-index: 0;
+}
+.Peace-on-earth-container-fluid {
+    z-index: 1;
+}
+.Background-img{
+    position: relative;
+}
+
+.Peace-on-earth h2{
+    font-size: 60px;
+    color: white;
+    font-family: 'Satisfy';
+    padding-top: 170px;
+    position: relative;
+}
+.Peace-on-earth h2 span{
+    margin-top: 23px;
+    display: block;
+    position: relative;
+}
+.Peace-on-earth p{
+     color: white;
+    font-family:  "lato bold", sans-serif;
+    padding-top: 36px;
+    font-size: 30px;
+    position: relative;
+}
+.Background-img{
+    background-color: #8f5540;
+}
+.fluid-img img{
+    width: 100%;
+   
+}
+.special-offer{
+    padding: 80px 0px;
+  
+}
+.Special-img{
+    background-color: #dec89d;
+}
+.special-offer h2{
+    font-size: 75px;
+    font-family: "Satisfy", sans-serif;
+    color: #8f5540;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 40px;
+}
+.special-offer p{
+    color: #8f5540;
+    text-align: center;
+}
+.special-offer span{
+    display: block;
+}
+.Order-section{
+    background-color: #a35638;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.Order h2{
+    font-family: "Satisfy", sans-serif;
+    color: white;
+    margin-top: 60px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.Order span{
+    display: block;
+}
+.Order p{
+    color: white;
+    font-family: "Lord Regular",sans-serif;
+    font-size: 12px;
+}
+.Code button{
+    border: none;
+    color: white;
+    background-color: #e19063;
+    padding: 7px 17px;
+    border-radius: 28px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Order{
+    position: relative;
+}
+.Shape1{
+    position: absolute;
+    left: 24px;
+    width: 45px;
+}
+.Shape2{
+    position: absolute;
+    right: -8px;
+    bottom: 70px;
+    width: 50px;
+}
+.Social-icons{
+    background-color: #af6d4c;
+    padding: 55px 0px;
+    text-align: center;
+}
+.icons a{
+color: #af6d4c;
+padding: 5px;
+background-color: white;
+border-radius: 50%;
+margin-right: 10px;
+}
+footer{
+    background-color: #393939;
+    color: #e7e7e7;
+    padding: 40px 0px;
+}
+.Aboutus-inf h5{
+    font-family: "Satisfy",sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.Aboutus-inf p{
+    font-size: 14px;
+    font-weight: 100;
+    width: 77%;
+}
+.About-links h5{
+    margin-left: 29px;
+    margin-bottom: 18px;
+    font-family: "Lato Semibold",sans-serif;
+}
+.Links-1  li a{
+    text-decoration: none;
+    list-style: none;
+    color: #e7e7e7;
+    font-size: 14px;
+}
+.Links-1 {
+    list-style: none;
+}
+.Links-2  li a{
+    text-decoration: none;
+    list-style: none;
+    color: #e7e7e7;
+    font-size: 14px;
+}
+.Links-2 ul {
+    list-style: none;
+}
+.Links-2 h5{
+     margin-left: 29px;
+    margin-bottom: 18px;
+    font-family: "Lato Semibold",sans-serif;
+}
+.Links-3{
+    margin-left: -81px;
+}
+.Links-3 h5{
+     margin-bottom: 18px;
+    font-family: "Lato Semibold",sans-serif;
+
+}
+

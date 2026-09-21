@@ -1,0 +1,410 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .cont1 a {
+        font-size: 9px;
+        padding-top: 8px;
+    }
+    .Nav ul a {
+      
+        font-size: 9px;
+    }
+    .cont2 h1 {
+        font-size: 40px;
+    }
+    .cont2 h1 span {
+        font-size: 35px;
+        font-family: "'Saudagar'"; 
+    }
+    .cont2 p {
+    font-size: 13px;}
+
+    .Nav ul a {
+        font-size: 11px;
+        margin-right: 17px;
+    }
+    .Card-body {
+        padding: 15px 10px;
+    }
+    .Card-body h4 {
+      font-size: 16px;
+    }
+    .Card-body p { 
+        font-size: 10px;
+    }
+    .Card-body span {
+        font-size: 20px;
+        
+    }
+    .bucket-icon {
+        width: 35px;
+    }
+    .Card-body a{
+        margin-bottom: -35px;
+    }
+    .cont4 {
+       margin-top: 35px;
+    }
+    .span {
+        margin-left: -84px;
+        margin-top: 22px;
+    }
+    .card1 {
+        height: 130px;
+    }
+    .cont8 h3 {
+        font-size: 27px;
+        padding-top: 20px;
+    }
+    .icons3 a {
+        font-size: 10px;
+    }
+    .links li a {
+        font-size: 13px; 
+        margin-left: -45px;
+    }
+    .links::before {
+        right: 35px;
+    }
+    .links h5 {
+        font-size: 20px;
+        margin-bottom: 23px;
+        margin-left: -44px;
+    }
+    .links2 h5 {
+        font-size: 23px;
+        margin-bottom: 22px;
+    }
+    .section-end {
+        font-size: 12px;
+    }
+    .text-end {
+        padding-top: 0px; 
+        font-size: 13px;
+    }
+    .cont7 {
+        margin-left: 12px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+.section-top {
+    padding: 10px 0px;
+}
+.cont1 a {
+font-size: 14px;
+}
+.icons a {
+    font-size: 12px;
+}
+.Nav ul a {
+    font-size: 15px;
+}
+.logo {
+    font-size: 20px;
+}
+.icon-img {
+    width: 21px;
+    padding-top: 18px;
+    margin-right: 14px;
+}
+.cont2 span {
+    font-size: 16px;
+}
+.cont2 p {
+    font-size: 16px;
+}
+.cont2 a {
+    padding: 18px 42px;
+    font-size:17px;
+    border-radius: 15px;
+}
+.cont3 h3 {
+    font-size: 60px;
+}
+.cont3 p {
+    font-size: 20px;
+}
+.Card-body p {
+    font-size: 14px;
+}
+.Card-body span {
+    font-size: 30px;
+}
+.cont4 h2 {
+    font-size: 60px;
+}
+.cont4 p {
+    font-size: 16px;
+}
+.cont4 span {
+    padding: 12px 35px;
+    font-size: 17px;
+}  
+.content5 h3 {
+    font-size: 55px;
+} 
+.content5 p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.content6 h5 {
+    font-size: 30px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.section-top {
+    padding: 10px 0px;
+}
+.icons a {
+    font-size: 15px;
+}
+.logo {
+    font-size: 20px;
+}
+.Nav ul a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.icon-img {
+    width: 23px;
+    padding-top: 25px;
+}
+.cont2 span {
+    font-size: 15px;
+}
+.cont2 p {
+    font-size: 15px;
+}
+.Card-body h4 {
+    font-size: 21px;
+}
+.cont4 p {
+    font-size: 25px;
+}
+.span {
+    margin-top: 20px;
+}
+.content6 h5 {
+    font-size: 30px;
+}
+.bigcard2 {
+    height: 90%;
+}
+.Parent5 {
+    padding: 58px 0px;
+}
+.card1 {
+    width: 111%;
+    height: 100%;
+}
+.cont7 {
+    height: 90%;
+}
+.cont8 h3 {
+    font-size: 35px;
+}
+.icons3 a {
+    font-size: 17px;
+}
+.links h5 {
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+.links li a {
+    margin-bottom: 29px;
+    font-size: 17px;
+}
+.links::before {
+        right: 20px;
+}
+.links:after {
+    left: -70px;
+}
+.section-end-img img {
+    width: 170px;
+}
+p {
+    font-size: 19px;
+}
+.text-end {
+    padding-top: 0px;
+    font-size: 19px;
+   
+}
+}
+@media only screen and (min-width: 576px) and (max-width:767px){
+.section-top {
+    padding: 10px 0px;
+}
+.logo {
+    font-size: 15px;
+}
+.icon-img {
+    width: 15px;
+    padding-top: 20px;
+    margin-right: 5px;
+}
+.cont1 a {
+    font-size: 7px;
+    padding-top: 10px;
+    margin-right: 4px;
+}
+.Nav ul a {
+    font-size: 10px;
+    margin-right: 8px;
+}
+.cont2 h1 {
+    font-size: 40px;
+}
+.cont2 h1 span {
+    font-size: 40px;
+    font-family: 'Saudagar';
+}
+.cont2 p {
+    font-size: 11px;
+}
+.Card-body h4 {
+    font-size: 33px;
+}
+.Card-body p {
+    font-size: 15px;
+    font-weight: 200;
+}
+.Card-body span {
+    font-size: 30px;
+}
+.Card-body {
+    margin-bottom: 25px;
+}
+.cont4 {
+    margin-top: 25px;
+}
+.content5 h3 {
+    font-size: 40px;
+}
+.content5 p {
+    font-size: 10px;
+}
+.span {
+    margin-left: -90px;
+}
+.person2 {
+    height: 190px;
+    margin-top: 30px;
+   
+}
+.content6 p {
+    font-size: 10px;
+}
+.cont7 {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.card1 {
+    width: 120%;
+    height: 150px;
+}
+.cont8 h3 {
+    font-size: 21px;}
+.icons3 a {
+    padding: 6px 6px;
+    font-size: 10px;
+}
+.links h5 {
+   
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.links:after {
+    left: -50px;
+}
+.links li a {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.links::before {
+    right: -16px;
+}
+.links2 h5 {
+    font-size: 20px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+.links2 a {
+    font-size: 9px;
+    margin-left: 30px;
+}
+.text-end {
+    padding-top: 0px;
+}
+.section-end-img img{
+    width: 140px;}
+}
+/*About css*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.cont3 h1 {
+    font-size: 70px;
+}
+.cont4 {
+    margin-top: 30px;
+}
+.cont4 {
+    margin-top: 30px;
+}
+.Parent4 {
+    padding: 80px 0;
+}
+.Parent5 {
+    padding: 5px
+}
+.cont5 h3 {
+    font-size: 45px;
+}
+.cont6 h3 {
+    font-size: 45px;
+}
+.content6 h5 {
+    font-size: 28px;
+}
+.content6 span {
+    font-size: 19px;
+    font-weight: 600;
+}
+.content6 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.icons-5 {
+    font-size: 20px;
+}
+.person2 {
+    height: 290px;
+}
+.aboutfluid {
+    height: 292px;
+}
+}
+@media only screen and (min-width: 576px) and (max-width:767px){
+.cont3 p {
+    font-size: 10px;
+}
+    .cont5 h3 {
+    font-size: 30px
+}
+.cont5 p {
+    font-size: 7px;
+    line-height: 16px;
+}
+.aboutfluid {
+    width: 100%;
+    height: 191px;
+}
+ .cont6 h3 {
+    font-size: 30px
+}
+.cont6 p {
+    font-size: 7px;
+    line-height: 16px;
+}
+}

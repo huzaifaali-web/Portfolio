@@ -1,0 +1,2167 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.section-top{
+    background-color: #9a7d3f;
+    display: flex  ;
+    padding: 11px 0px 3px 0px;
+    color: #fff;
+    
+}
+.contact-inf span{
+ font-family: "Montserrat",sans-serif;
+ font-weight: 500;
+ text-transform: uppercase;
+ font-size: 11px;
+ margin-right: 5px;
+}
+.drop-arrow{
+    margin-right: 11px;
+}
+.contact-inf a{
+text-decoration: none;
+color: #ffff;
+font-size: 13px;
+font-weight: 200;
+font-family: "Montserrat",sans-serif;
+}
+.free-shipping p{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 39px;
+    text-align: center;
+    margin-top: 4px;
+}
+.wishlist-cart{
+    text-align: end;
+}
+.wishlist-cart p{
+    text-transform: uppercase;
+    font-size: 11px;
+    display: inline;
+    margin-right: 17px;
+    font-family: "Montserrat",sans-serif;
+}
+.heart-shape{
+    margin-right: 5px;
+}
+.wishlist-cart span{
+    text-transform: uppercase;
+    font-size: 11px;
+    display: inline;
+    margin-right: 17px;
+    font-family: "Montserrat",sans-serif;
+}
+.cart-shape{
+    margin-right: 5px;
+}
+header{
+    background-color: black;
+    padding: 5px 0px;
+}
+.menue ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menue ul a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.cart{
+    color: #ffff;
+     margin-top: 25px;
+     text-align: end;
+     font-weight: 300;
+     font-size: 14px;
+     text-transform: uppercase;
+}
+.cartshop{
+    margin-left: 10px;
+    padding: 8px;
+    background-color: #9a7d3f;
+    border-radius: 50%;
+    border: 1px #ffff solid;
+}
+.banner img{
+ width: 100%;
+}
+.Welcome{
+    background-color: black;
+    color: #ffff;
+    
+    padding: 23px 34px;
+}
+
+.banner-mainheading p{
+font-size: 45px;
+letter-spacing: 15px;
+font-weight: 100;
+font-family: "Montserrat",sans-serif;
+text-transform: uppercase;
+}
+.banner-mainheading h1{
+font-family: "Cinzel",sans-serif; 
+font-size: 60px;
+letter-spacing: 7px;  
+text-transform: uppercase;  
+
+}
+.banner-mainheading span{
+    color: #9a7d3f;
+}
+.banner-inf p{
+font-weight: 300;
+font-family: "Montserrat",sans-serif;
+font-size: 15px;
+}
+.social-icons{
+    font-size: 16px;
+}
+.facebook{
+     padding-right: 17px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.twitter{
+     padding-right: 20px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 8px;
+    background-color: #9a7d3f;
+}
+.insta{
+     padding-right: 20px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.linkedin{
+     padding-right: 20px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.shop-section{
+    padding-top: 50px;
+    padding-bottom: 8px;
+}
+.Shop-collection h2{
+    text-transform: uppercase;
+    font-family: "Cinzel",sans-serif; 
+
+}
+.arrows{
+    justify-content: end;
+}
+.left-arrow{
+margin-right: 15px;
+border-radius: 50%;
+border: 1px solid #b4b4b4;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-right: 25px;
+padding-left: 10px;
+}
+.right-arrow{
+border-radius: 50%;
+border: 1px solid #b4b4b4;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-right: 25px;
+padding-left: 10px;
+}
+.card1 img{
+    width: 100%;
+}
+.card1{
+    text-align: center;
+}
+.card1 h3{
+
+font-size: 23px;
+font-family: "Cinzel",sans-serif; 
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.card1 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    padding: 7px 30px;
+    border: 1px #9a7d3f solid;
+    font-weight: 600;
+    
+}
+.card3-inf{
+background-color: #fff;
+box-shadow: 0px 3px 15px 1px gray;
+padding-bottom: 27px;
+padding-top: 20px;
+text-align: center;
+}
+.card3-inf h3{
+text-align: center;
+font-size: 23px;
+font-family: "Cinzel",sans-serif; 
+margin-bottom: 12px;
+
+}
+.card3-inf a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 31px;
+    border: 1px #9a7d3f solid;
+    background-color: #9a7d3f;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.justify-content-center{
+    justify-content: center !important;
+    display: flex;
+}
+.design-essential{
+    padding: 50px 40px;
+}
+.design-meets img{
+width: 100%;
+}
+.design-meets{
+    padding-right: 20px ;
+}
+.design-inf{
+    padding: 40px 0px;
+}
+.design-inf h3{
+    text-transform: uppercase;
+    font-family: "Cinzel",sans-serif; 
+    font-size: 31px;
+
+}
+.design-inf p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    padding-bottom: 8px;
+
+}
+.design-inf a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    padding: 8px 31px;
+    border: 1px #9a7d3f solid;
+    font-weight: 600;
+    
+    
+}
+.essential-chefs img{
+    width: 100%;
+    height: 394px;
+}
+.crestclove{
+background-image: url(../Image/Background-img-2.jpg);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+display: flex;
+align-items: flex-end;
+}
+.crest-clove-inf h2{
+color: #ffff;
+text-transform: uppercase;
+font-family: "Cinzel",sans-serif;
+font-size: 100px;
+letter-spacing: 7px; 
+padding: 10px 0px;
+
+}
+.crest-clove-inf a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 31px;
+    border: 1px #9a7d3f solid;
+    background-color: #9a7d3f;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.our-shop{    
+    padding: 40px 0px;
+}
+.ourshop-inf{
+text-align: center;
+}
+.ourshop-inf h3{
+    text-transform: uppercase;
+    font-family: "Cinzel",sans-serif;
+    font-size: 40px;
+}
+.ourshop-inf p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.shop-card1 img{
+    width: 100%;
+}
+.shop-card1-inf{
+    border: 1px solid #b4b4b4;
+    padding: 10px 19px;
+}
+.shop-card1-inf h4{
+    text-transform: uppercase;
+    font-family: "Cinzel",sans-serif;
+    font-size: 19px;
+   margin: 0px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+
+.shop-card1-inf p{
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+}
+.shop-card1-price{
+    border: 1px solid #b4b4b4;
+    padding: 10px 19px;
+}
+.shop-card1-price span{
+    color: #9a7d3f;
+    font-size: 22px;
+    font-weight: 500;
+}
+.shop-card1-price a{
+    color: black;
+    font-size: 15px;
+    padding-left:50px;
+}
+.catalogue{
+display: flex;
+align-items: center;
+
+
+}
+.catalogue-inf{
+    background-color: #9a7d3f;
+    padding: 100px 50px;
+    color: #fff;
+}
+.catalogue-inf h2{
+    font-size: 55px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 2px;
+}
+.catalogue-inf p{
+    font-size: 14px;
+    font-family: "Montserrat",sans-serif;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.catalogue-inf a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 9px 36px;
+    border: 1px #fff solid;
+    background-color: #9a7d3f;
+    font-family: "Montserrat", sans-serif;
+    
+    
+}
+.align-items-center{
+    align-items: center !important;
+}
+.catalogue-img img{
+    width: 100%;
+    height: 475px;
+}
+.Our-Happy-Customers{
+    padding: 60px 0px;
+}
+.our-customer{
+    text-align: center;
+
+}
+.our-customer h3{
+    text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.our-customer p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+
+}
+.Ann-peterson{
+
+padding-top: 30px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.Ann-peterson h4{
+    font-size: 25px;
+}
+.Ann-peterson a{
+    color: black;
+    font-weight: 500;
+}
+.Ann-peterson p{
+    padding-top: 30px;
+    color:#9e9e9e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.reviews-sec{
+    border: 1px solid #9e9e9e;
+    
+}
+.review{
+    padding: 6px 20px;
+
+}
+.review i{
+    color: #f4a62f;
+    font-size: 15px;
+}
+.review img{
+    margin-left: 20px;
+    
+}
+.viewall{
+    background-color: #9a7d3f;
+    height: 323px;
+    display: flex;
+    align-items: center;  
+}
+.viewall a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 9px 36px;
+    border: 1px #fff solid;
+    background-color: #9a7d3f;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 63px;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    padding: 40px 90px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+.contact-us{
+    position: relative;
+}
+.contact-us img{
+    position: absolute;
+    bottom: 26px;
+    left: 16%;
+}
+.contact-us h4{
+     text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+.contact-us p{
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+}
+.mail{
+    margin-bottom: 25px;
+}
+.mail img{
+    position: absolute;
+    left: 11%;
+}
+.mail span{
+   
+    font-size: 13px;
+     font-family: "Montserrat", sans-serif;
+
+}
+.phone img{
+    position: absolute;
+    left: 11%;
+}
+.phone span{
+   
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.subscribe h4{
+    text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    
+}
+.subscribe p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.enteryour-email input{
+    padding: 10px 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.subscribe{
+    position: relative;
+    
+}
+.subscribe a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 11px 123px;
+    border: 1px #fff solid;
+    background-color: #9a7d3f;
+    font-family: "Montserrat", sans-serif;
+}
+.arrow{
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+.social-icons2{
+    font-size: 17px;
+}
+.facebook2{
+    padding-right: 24px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 30px;
+
+}
+.twitter2{
+      padding-right: 24px;
+    padding-left: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: #9a7d3f;
+}
+.insta2{
+    padding-right: 24px;
+    padding-left: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.linkedin2{
+   padding-right: 24px;
+    padding-left: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.Quick-link h4{
+    text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.links{
+    margin-left: 30px;
+    text-align: start;
+}
+.links li{
+    list-style: none;
+    margin-left: 83px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.end{
+    background-color: black;
+    color: white;
+    padding-top: 11px;
+}
+.Reserved p{
+font-size: 13px;
+font-family: "Montserrat", sans-serif;
+font-weight: 300;
+}
+.payment{
+    display: flex;
+    justify-content: end;
+}
+
+/*........... About Us Section................. */
+.banner img{
+     width: 100%;
+
+}
+.Aboutus{
+    background-color: black;
+    padding: 30px 0px;
+
+}
+.About-us{
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Cinzel", sans-serif;
+}
+.About-us h2{
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.abount-img img{
+    width: 100%;
+}
+.Our-story{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.ourstory-inf{
+    background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 90px 70px;
+  margin-left: 30px
+}
+.ourstory-inf h2{
+    
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Cinzel", sans-serif;
+    margin-bottom: 10px;
+}
+.ourstory-inf p{
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.ourstory-paragraph{
+    padding: 50px 0px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.our-mission{
+    padding-left: 60px ;
+}
+.our-mission h3{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Cinzel", sans-serif;
+    margin-bottom: 10px;
+}
+.our-mission p{
+
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+ .our-mission-img {
+    width: 225px;
+    height: 195px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.our-mission-img .mission {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+
+ .our-mission-img .mission-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 9px;
+    left: 9px;  
+    z-index: 1;
+} 
+.our-vision {
+    margin-top: 70px;
+    align-items: center;
+}
+
+
+.our-vision-img {
+    width: 225px;
+    height: 200px;
+    position: relative;
+    margin-left: 90px;
+}
+
+.our-vision-img .vision {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+
+.vision{
+
+    right: -12%;
+}
+.our-vision-img .vision-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: -13px;
+    left: 9px;
+    z-index: 1;
+}
+
+.our-vision-text {
+    margin-left: -50px;
+}
+
+.our-vision-text h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Cinzel", sans-serif;
+    margin-bottom: 10px;
+}
+
+.our-vision-text p {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/*........... SHOP Section................. */
+
+.shop{
+    padding: 60px 0px;
+}
+.dolar-sit{
+    display: block;
+}
+.categories h4{
+font-size: 38px;
+font-family: "Cinzel", sans-serif;
+margin-bottom: 20px;
+}
+.Lorem-ipsum{
+    border-bottom: 1px solid #b4b4b4;
+    width: 200px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+.Lorem-ipsum input{
+    margin-right: 20px;
+    padding-bottom:5px ;
+}
+.Lorem-ipsum span{
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    
+}
+.shop-card1 img{
+    width: 100%;
+    height: 370px;
+}
+.shop-card1{
+    margin-bottom: 20px;
+}
+.shop-card1-inf{
+    border: 1px solid #b4b4b4;
+    padding: 10px 19px;
+}
+.shop-card1-inf h4{
+    text-transform: uppercase;
+    font-family: "Cinzel",sans-serif;
+    font-size: 19px;
+   margin: 0px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+
+.shop-card1-inf p{
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+}
+.shop2-card1-price{
+    border: 1px solid #b4b4b4;
+    padding: 10px 19px;
+    margin-bottom: 40px;
+}
+.shop2-card1-price span{
+    color: #9a7d3f;
+    font-size: 22px;
+    font-weight: 500;
+}
+.shop2-card1-price a{
+    color: black;
+    font-size: 15px;
+    padding-left:50px;
+}
+.price-range{
+    margin-bottom: 20px;
+    margin-top: -45px;
+}
+.price-range h4{
+    font-size: 32px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 1px;
+}
+.minus{
+margin: 0px 7px;
+}
+.Lorem-ipsum label{
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    
+}
+/*........... Collection     Section................. */
+
+.collection h2 {
+    font-size: 57px;
+    letter-spacing: 4px;
+}
+.design-essential2 {
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.shop-section2{
+    padding: 60px 0px;
+} 
+
+/*........... Journal Section................. */
+
+.Cooking-recipes{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.cooking-tehniques img{
+    width: 100%;
+    right: -7%;
+    height: 400px;
+}
+
+.cooking-tehniques{
+    position: relative;
+}
+.journal-img-1{
+    position: absolute;
+}
+.cooking-tehniques-inf{
+    border: 1px solid #b4b4b4;
+    padding: 60px 50px;
+}
+.cooking-tehniques-inf span{
+    display: block;
+}
+.cooking-tehniques-inf h3{
+     font-size: 32px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 1px;
+}
+.cooking-tehniques-inf p{
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+}
+.cooking-tehniques-inf img{
+    margin-right: 10px;
+}
+.journal-shape1{
+     font-size: 15px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.Recipe-bakery img {
+    width: 100%;
+    right: 8%;
+    height: 400px;
+}
+.Recipe-bakery{
+    position: relative;
+}
+.journal-img-1{
+    position: absolute;
+}
+.number-icons{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.one{
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    border-radius: 50%;
+    background-color: #9a7d3f;
+    text-align: center;
+}
+.two{
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+    padding-right: 28px;
+    border-radius: 50%;
+    background-color: #9a7d3f;
+    text-align: center;
+    margin-left: 15px;
+}
+.icons1-2 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*........... Contact us Section................. */
+.contact-details{
+    padding: 70px 0px;
+    text-align: center;
+}
+.contact-detail-inf{
+    text-align: center;    
+}
+.contact-detail-inf h3{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 1px;
+
+}
+.contact-detail-inf p{
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+}
+.location{
+    border: 1px solid #9a7d3f;
+    padding: 30px 0px;
+}
+.location h5{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: "Cinzel", sans-serif;
+    margin-top: 17px;
+    
+}
+.location p{
+    font-size: 12px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.question{
+    text-align: center;
+}
+.question h3{
+    text-transform: uppercase;
+    font-size: 33px;
+    font-family: "Cinzel", sans-serif;
+    margin-top: 17px;
+    letter-spacing: 1px;
+}
+.question p{
+     font-size: 12px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.form-sec{
+    padding-bottom: 60px;
+}
+form {
+    width: 100%;
+}
+
+form .row {
+    row-gap: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 6px;
+}
+
+form .form-control {
+    width: 100%;
+    height: 40px;
+    padding: 5px 8px;
+    border: 1px solid #d8d8d8;
+    border-radius: 0;
+    font-size: 12px;
+    box-shadow: none;
+}
+
+form .form-control:focus {
+    border-color: #b08b45;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Message */
+form textarea.form-control {
+    height: 150px;
+    resize: none;
+}
+
+/* Button */
+form button {
+    margin-top: 0;
+    padding: 10px 25px;
+    background-color: #a5823e;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8d6e32;
+}
+.similar-products{
+    padding-bottom:50px ;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 32px;
+    font-family: "Cinzel", sans-serif;
+    
+}
+.section-heading p{
+     font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.details-header {
+    height: 145px;
+    background-color: #1d1d1d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-header h1 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    font-family: "Cinzel", sans-serif;
+}
+
+
+
+/* =========================
+   PRODUCT DETAILS
+========================= */
+
+.product-details {
+    padding: 63px 0 55px;
+}
+
+.product-image-box {
+    border: 1px solid #b3914d;
+    padding: 15px;
+    width: 100%;
+}
+
+.product-image-box img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+/* =========================
+   PRODUCT CONTENT
+========================= */
+
+.product-content {
+    padding-left: 8px;
+
+}
+
+.product-content h2 {
+    font-size: 26px;
+    line-height: 1.15;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    max-width: 350px;
+    font-family: "Cinzel", sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.price {
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.price del {
+    color: #999;
+    margin-right: 4px;
+}
+
+.price span {
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Reviews */
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.stars {
+    color: #f2b500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.review-text {
+    color: #999;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+
+.product-line {
+    height: 1px;
+    background-color: #ddd;
+    margin: 7px 0 12px;
+}
+
+
+/* Product Info */
+
+.product-info {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 4px;
+}
+
+
+/* Description */
+
+.description {
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-size: 9px;
+    line-height: 1.45;
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   CART
+========================= */
+
+.cart-area {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 12px;
+}
+
+.quantity {
+    height: 24px;
+    border: 1px solid #ddd;
+
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    width: 23px;
+    height: 22px;
+
+    background: transparent;
+    border: none;
+
+    font-size: 12px;
+    color: #555;
+}
+
+.quantity span {
+    width: 22px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+.add-cart {
+    height: 25px;
+    padding: 0 18px;
+
+    border: none;
+    background-color: #a3833e;
+    color: white;
+
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+}
+
+.add-cart:hover {
+    background-color: #8b6e32;
+}
+
+
+.wishlist {
+    width: 25px;
+    height: 25px;
+
+    border: 1px solid #ddd;
+    border-radius: 50%;
+
+    background-color: #fff;
+    color: #a3833e;
+
+    font-size: 16px;
+}
+
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.social-icons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    width: 23px;
+    height: 23px;
+
+    border: 1px solid #aaa;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #444;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.social-icons a.active {
+    background-color: #a3833e;
+    border-color: #a3833e;
+    color: white;
+}
+.shop-card1-price {
+    border: 1px solid #b4b4b4;
+    padding: 10px 19px;
+}
+.shop-card1-price a {
+    color: black;
+    font-size: 15px;
+    padding-left: 30px;
+} 
+
+/*................... Checkout css...............*/
+
+.Checkout-form{
+    padding: 60px 0px;
+}
+.billing-details{
+    font-size: 15px;
+}
+
+.billing-details a{
+    color: #8b6e32
+}
+.billing-details span{
+    color: #8c8c8c ;
+}
+.billing-details h2{
+    font-size: 45px;
+    font-family: "Cinzel", sans-serif;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+.Country-lable{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.Country-form{
+   width: 100%;
+    padding: 14px 0px;
+    margin-bottom: 20px;
+    border: 1px solid #b2b2b2;
+}
+.FirstName-lable{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.FirstName-form{
+     width: 350px;
+    padding: 14px 0px;
+   
+    margin-bottom: 20px;
+    border: 1px solid #b2b2b2;
+}
+.LastName-lable{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.LastName-form{
+     width: 350px;
+    padding: 14px 0px;
+   border: 1px solid #b2b2b2;
+    margin-bottom: 20px;
+}
+.Companyname-lable{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.Companyname-form{
+    width: 100%;
+    padding: 14px 0px;
+    border: 1px solid #b2b2b2;
+    margin-bottom: 20px;
+}
+.Order-Notes label{
+    display: block;
+}
+.Order-Notes textarea{
+    width: 100%;
+    border: 1px solid #b2b2b2;
+}
+.billing-details-end{
+    margin-top: 14px;
+}
+.billing-details-end span{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.billing-details-end a{
+    color: #8d6e32;
+}
+.Payement-heading{
+    text-align: center;
+   font-family: "Cinzel", sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.Payement-img{
+    margin-left: 30px;
+}
+.Payement-img img{
+    width: 80px;
+    height: 99px;
+  
+    margin-bottom: 15px;
+}
+.Payement-details{
+    
+    margin-left: 80px;
+    padding: 8px;
+    padding-top: 30px;
+
+}
+
+.Payement-inf {
+    margin-left: 20px;
+    width: 200px;
+}
+.Payement-inf  h5{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Cinzel", sans-serif;
+    margin-bottom: 2px;
+}
+.Payement-inf p{
+    font-size: 13px;
+    font-weight: 200;
+}
+.Payement-span{
+    padding: 15px 20px;
+    background-color: #91666d;
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.Payement-subtotal{
+    margin-left: 80px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+.Payement-subtotal span{
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Payement-order span{
+    font-weight: 500;
+     margin-left: 100px;
+    font-size: 20px;
+}
+.Payement-order{
+    margin-left: 80px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+.Bank-inf{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.Bank-inf p{
+    font-size:12px;
+    width: 300px;
+}
+.Credit-cards{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Credit-cards img{
+   
+    width: 130px;
+    margin-left: 20px;
+}
+.Credit-cards h6{
+    margin: 0px;
+    margin-top: 5px;
+
+}
+.Place-Order{
+    padding: 12px 25px;
+    margin-left: 84px;
+    background-color: #91666d;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+/* Product-details Css*/
+.P-detail-section{
+    background-image:url(../Images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.P-detail-inf{
+    color: white;
+    text-align: center;
+    padding: 160px 10px;
+}
+.P-detail-inf h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    font-family: "Saudagar",sans-serif;
+}
+.P-detail-inf p{
+    font-family: "Roboto Regular",sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+}
+.Product-details{
+    padding: 80px 0px;
+}
+.P-detail-img img{
+    width: 400px;
+    border-radius: 20px;
+}
+.P-detail-img-mini img{
+    width: 65px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.P-detail-img-mini{
+    position: relative;
+}
+
+
+.P-detail-img-mini::before{
+    content: '';
+    width: 2px;
+    height: 120%;
+    position: absolute;
+    background-color: #b2b2b2;
+    top: 0;
+    right: 10px;
+}
+.lorem-inf h3{
+    font-family: "saudagar", sans-serif;
+    font-size: 35px;
+}
+.lorem-inf p{
+    font-size: 12px;
+    font-family: "Roboto",sans-serif;
+    width: 351px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.lorem-price{
+    font-size: 20px;
+    color: #91666d;
+}
+.lorem-icons{
+    color: #f9ae0e;
+    margin-top: 15px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.lorem-icons span{
+    color: #e5e4e4;
+}
+.lorem-icons a{
+    color: #91666d;
+    font-size: 12px;
+}
+.lorem-links{
+    margin-bottom: 30px;
+}
+
+.buynow {
+    padding: 13px 35px;
+    margin-left: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid black;
+    background-color: white;
+    color: black;
+}
+.basket{
+    padding: 15px 15px;
+    margin-left: 50px;
+    background-color: #91666d;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lorem-weeks{
+    font-size: 12px;
+    color: #4c4c4c;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b49497;
+
+}
+.lorem-weeks a{
+    font-size: 12px;
+    color: #4c4c4c;
+}
+.Home-Delivery{
+    font-size: 12px;
+    color: #4c4c4c;
+    margin-top: 10px;
+    border-bottom: 1px solid #8c8c8c;
+    padding-bottom: 20px;
+}
+/*................................Cart Section ..........*/
+
+
+        .cart-section {
+            padding: 70px 0;
+        }
+
+        .cart-wrapper {
+            width: 100%;
+        }
+
+        /* =========================
+           CART HEADER
+        ========================= */
+
+        .cart-header {
+            height: 35px;
+            background: #a4863f;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+
+        .cart-header .item-col {
+            width: 38%;
+        }
+
+        .cart-header .qty-col {
+            width: 18%;
+            text-align: center;
+        }
+
+        .cart-header .price-col {
+            width: 18%;
+            text-align: center;
+        }
+
+        .cart-header .sub-col {
+            width: 18%;
+            text-align: center;
+        }
+
+        .cart-header .remove-col {
+            width: 8%;
+        }
+
+
+        /* =========================
+           CART ITEM
+        ========================= */
+
+        .cart-item {
+            min-height: 100px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .item-details {
+            width: 38%;
+        }
+
+        .quantity-column {
+            width: 18%;
+            text-align: center;
+        }
+
+        .unit-price {
+            width: 18%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .sub-price {
+            width: 18%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .remove-column {
+            width: 8%;
+            text-align: right;
+        }
+
+        .product-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .product-image {
+            width: 57px;
+            height: 57px;
+            object-fit: cover;
+            background: #eee;
+        }
+
+        .product-name {
+            margin: 0 0 3px;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .product-info {
+            margin: 0;
+            font-size: 8px;
+            line-height: 15px;
+        }
+
+
+        /* =========================
+           QUANTITY
+        ========================= */
+
+        .quantity-box {
+            width: 100px;
+            height: 34px;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .quantity-box button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background: transparent;
+            font-size: 13px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .quantity-number {
+            font-size: 11px;
+        }
+
+        .update-cart {
+            display: block;
+            margin-top: 7px;
+            font-size: 11px;
+            color: #555;
+        }
+
+
+        /* =========================
+           REMOVE BUTTON
+        ========================= */
+
+        .remove-btn {
+            width: 27px;
+            height: 27px;
+            padding: 0;
+            border: none;
+            background: #a4863f;
+            color: #fff;
+            font-size: 18px;
+            line-height: 27px;
+            cursor: pointer;
+        }
+
+
+        /* =========================
+           BOTTOM CART
+        ========================= */
+
+        .cart-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .continue-shopping {
+            color: #a4863f;
+            text-decoration: none;
+            font-size: 11px;
+        }
+
+        .continue-shopping:hover {
+            color: #856b2e;
+        }
+
+        .checkout-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 34px;
+            min-width: 205px;
+            padding: 12px 20px;
+            background: #a4863f;
+            color: #fff;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .checkout-btn:hover {
+            background: #856b2e;
+            color: #fff;
+        }
+
+
+        /* =========================
+           PAYPAL
+        ========================= */
+
+        .paypal-box {
+            width: 205px;
+            height: 58px;
+            margin: 25px auto 0;
+            border: 1px solid #ddd;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .paypal-title {
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            padding: 0 10px;
+            font-size: 7px;
+            color: #555;
+            white-space: nowrap;
+        }
+
+        .paypal-btn {
+            border: none;
+            border-radius: 5px;
+            background: #ffc439;
+            color: #003087;
+            padding: 5px 18px;
+            font-size: 9px;
+            cursor: pointer;
+        }
+
+        .paypal-btn strong {
+            font-size: 15px;
+        }
+
+
+        /* =========================
+           SUMMARY
+        ========================= */
+
+        .summary-box {
+            background: #f8f6f3;
+            border: 1px solid #ddd;
+            padding: 20px 25px;
+            font-size: 10px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 12px;
+            font-family: 'Montserrat';
+        }
+
+        .summary-total {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 5px;
+            color: #a4863f;
+            font-size: 12px;
+        }
+
+
+        /* =========================
+           SHIPPING
+        ========================= */
+
+        .shipping-box {
+            background: #f8f6f3;
+            border: 1px solid #ddd;
+            padding: 20px 25px;
+            margin-top: 90px;
+            font-size: 9px;
+        }
+
+        .shipping-title {
+            color: #a4863f;
+            font-size: 13px;
+            margin-bottom: 2px;
+        }
+
+        .shipping-text {
+            margin: 0;
+            font-size: 9px;
+        }
+
+        .estimate-title {
+            margin-top: 28px;
+        }
+/* MY ACCOUNTS CSS */
+.Login{
+    padding: 70px 0px;
+  
+}
+.login-form{
+    
+   
+    margin: 50px 0px;
+    padding: 40px 0px;
+    background: #fff;
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.12);
+    position: relative;
+    z-index: 2;
+
+}
+.login-form h4{
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+font-family: "Cinzel", sans-serif;
+padding-top:20px;
+padding-bottom: 15px;
+font-weight: 500;
+
+}
+.form-username{
+    margin-left: 20px;
+}
+.form-Username{
+    width: 500px;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 12px;
+    border: 2px solid #e0dcdc;
+    
+    color: #b49497;
+
+}
+.form-password{
+    margin-left: 20px;
+    margin-top: 25px;
+   
+}
+.form-Password{
+    width: 500px;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 12px;
+    border: 2px solid #e0dcdc;
+    
+}
+.button-login{
+    width: 500px;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 20px;
+     border: 2px solid #e0dcdc;
+     background-color: #8b6e32;
+     text-align: center;
+     margin-left: 20px;
+     margin-top: 15px;
+     border-radius: 8px;
+   text-transform: uppercase;
+font-family: "Cinzel", sans-serif;
+}
+.button-login a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.checkbox{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.checkbox span{
+ margin-right: 160px;
+ font-size: 12px;
+ font-weight: 100;
+ width: 100%;
+}
+.Register-form{
+    border: 2px solid #91666d;
+    border-radius: 20px;
+    margin: 50px 0px;
+    padding: 40px 0px;
+}
+.Register-form h4{
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+font-family: "Cinzel", sans-serif;
+padding-top:20px;
+padding-bottom: 15px;
+font-weight: 500;
+}
+.First-name{
+    margin-left: 20px;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    width: 238px;
+    border: 1px solid #cca8aa;
+    color:#b49497;
+}
+.Last-name{
+    margin-left: 20px;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    width: 238px;
+    border: 1px solid #cca8aa;
+    color:#b49497;
+}
+.Email-address{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    width: 500px;
+    border: 1px solid #cca8aa;
+    color:#b49497;
+}
+.Email-Password{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    width: 500px;
+    border: 1px solid #cca8aa;
+    color:#b49497;
+}
+.Retype-Password{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    width: 500px;
+    border: 1px solid #cca8aa;
+    color:#b49497;
+}
+.Registerform-text p{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #b49497;
+    font-size: 14px;
+    font-weight: 100;
+}
+.Registerform-text a{
+    color: black;
+}
+.Register-form button{
+     margin-left: 20px;
+    margin-top: 20px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 500px;
+    border: 1px solid #cca8aa;
+    background-color: #8b6e32;
+}
+.Register-form button a{
+    text-decoration: none;
+    color: white;
+
+    text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+}
+
