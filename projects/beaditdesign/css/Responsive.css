@@ -1,410 +1,3702 @@
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .cont1 a {
-        font-size: 9px;
-        padding-top: 8px;
+/* =========================================================
+   BEAD IT DESIGNS BY JC - RESPONSIVE CSS
+   One responsive file for index.html + aboutus.html
+   ========================================================= */
+
+/* ---------- LARGE TABLET / SMALL DESKTOP ---------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container {
+        max-width: 960px;
     }
+
+    .Nav ul {
+        gap: 12px;
+    }
+
     .Nav ul a {
-      
-        font-size: 9px;
+        font-size: 13px;
     }
-    .cont2 h1 {
-        font-size: 40px;
+
+    .Parent1 .cont2 {
+        padding-right: 20px;
     }
-    .cont2 h1 span {
-        font-size: 35px;
-        font-family: "'Saudagar'"; 
+
+    .Rectangle-img {
+        max-width: 100%;
+        height: auto;
     }
-    .cont2 p {
-    font-size: 13px;}
+
+    .Card1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bigcard,
+    .bigcard2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .person2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .form-group1,
+    .form-group2,
+    .form-group3,
+    .form-group4,
+    .message {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .map-img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+
+/* ---------- TABLET ---------- */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    /* TOP BAR */
+    .section-top .row {
+        align-items: center;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 15px;
+    }
+
+    .cont1 a {
+        font-size: 12px;
+    }
+
+    .icons {
+        text-align: right;
+    }
+
+    /* HEADER */
+    header .row {
+        align-items: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .Nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .Nav ul a {
+        font-size: 12px;
+    }
+
+    .icons2 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* HERO */
+    .Parent1 .row {
+        align-items: center;
+    }
+
+    .cont2 {
+        padding-right: 10px;
+    }
+
+    .Rectangle-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* PRODUCTS */
+    .Card1 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Card-body {
+        width: 100%;
+    }
+
+    /* ABOUT */
+    .bigcard {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cont4 {
+        margin-top: 20px;
+    }
+
+    /* TESTIMONIAL */
+    .person2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* CONTACT */
+    .bigcard2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cont7 {
+        margin-top: 20px;
+    }
+
+    .form-group1,
+    .form-group2,
+    .form-group3,
+    .form-group4,
+    .message {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .map-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    /* GALLERY */
+    .Parent6 .card1,
+    .Parent5 .card1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* FOOTER */
+    .Parent7 .row {
+        align-items: flex-start;
+    }
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 767px) {
+
+    /* GLOBAL */
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* TOP BAR */
+    .section-top .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-top .cont1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .section-top .cont1 a {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .section-top .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 8px;
+    }
+
+    /* HEADER */
+    header .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .Nav {
+        width: 100%;
+    }
+
+    .Nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 7px 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Nav ul a {
+        font-size: 12px;
+    }
+
+    .icons2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    .icon-img {
+        max-width: 28px;
+        height: auto;
+    }
+
+    /* HERO */
+    .Parent1 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Parent1 .cont2 {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .Parent1 .Rectangle-img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* PRODUCTS */
+    .Parent2 .row {
+        row-gap: 25px;
+    }
+
+    .Parent2 .Card1 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Card-body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .Card-body p {
+        max-width: 100%;
+    }
+
+    /* ABOUT */
+    .Parent-3 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Parent-3 .bigcard {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Parent-3 .cont4 {
+        width: 100%;
+        margin-top: 25px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    /* ABOUT PAGE */
+    .section1 .cont3 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .About-us .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-us .bigcard {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .About-us .cont4 {
+        width: 100%;
+        margin-top: 25px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .our-mission .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-mission .cont5,
+    .our-mission .cont6 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 15px;
+    }
+
+    .aboutfluid,
+    .aboutfluid2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* TESTIMONIAL */
+    .Parent4 .row.align-items-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Parent4 .span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .Parent4 .content6 {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .Parent4 .person2 {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    /* CONTACT */
+    .Parent5 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Parent5 .bigcard2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Parent5 .cont7 {
+        width: 100%;
+        margin-top: 25px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .Parent5 .form {
+        width: 100%;
+    }
+
+    .Parent5 .form-group1,
+    .Parent5 .form-group2,
+    .Parent5 .form-group3,
+    .Parent5 .form-group4,
+    .Parent5 .message {
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .map-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    /* GALLERY */
+    .Parent6 .row,
+    .Parent5 .container-fluid .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Parent6 .card1,
+    .Parent5 .card1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* FOOTER */
+    .Parent7 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Parent7 .cont8,
+    .Parent7 .links,
+    .Parent7 .links2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .Parent7 .quick-links {
+        padding: 0;
+        text-align: center;
+    }
+
+    .Parent7 .icons3 {
+        text-align: center;
+    }
+
+    .Parent7 .links::before,
+    .Parent7 .links::after {
+        display: none;
+    }
+
+    .footer-bottom .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-end,
+    .section-end-img {
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .section-end-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* ---------- VERY SMALL MOBILE ---------- */
+@media (max-width: 575px) {
+
+    .Nav ul {
+        gap: 6px 9px;
+    }
 
     .Nav ul a {
         font-size: 11px;
-        margin-right: 17px;
     }
+
+    .Parent1 .cont2 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Parent1 .cont2 h1 {
+        font-size: clamp(28px, 8vw, 42px);
+    }
+
+    .Parent1 .cont2 p {
+        font-size: 14px;
+    }
+
+    .cont3 h1,
+    .cont3 h2,
+    .content5 h3 {
+        max-width: 100%;
+    }
+
     .Card-body {
-        padding: 15px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    .Card-body h4 {
-      font-size: 16px;
+
+    .section1 .cont3,
+    .Parent-3 .cont4,
+    .About-us .cont4,
+    .Parent5 .cont7 {
+        padding-left: 8px;
+        padding-right: 8px;
     }
-    .Card-body p { 
+
+    .our-mission .cont5,
+    .our-mission .cont6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Parent7 .cont8,
+    .Parent7 .links,
+    .Parent7 .links2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* =========================
+   TESTIMONIALS LABEL
+========================= */
+
+.Parent4 .span {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+    .Parent4 .content5 {
+        width: 100%;
+    }
+
+    .Parent4 .span {
+        transform: rotate(-90deg);
+        transform-origin: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        white-space: nowrap;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Parent4 .span {
+        transform: none;
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+        white-space: normal;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .Parent4 .span {
+        transform: none;
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        white-space: normal;
+    }
+
+}
+/* =========================
+   TESTIMONIALS LABEL
+========================= */
+
+.Parent4 .span {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+    .Parent4 .content5 {
+        width: 100%;
+    }
+
+    .Parent4 .span {
+        transform: rotate(-90deg);
+        transform-origin: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        white-space: nowrap;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Parent4 .span {
+        transform: none;
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+        white-space: normal;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .Parent4 .span {
+        transform: none;
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        white-space: normal;
+    }
+
+}
+/* =================================
+   CONTACT FORM RESPONSIVE FIX
+================================= */
+
+.cont7 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cont7 .form {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.cont7 .form input {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+    .cont7 {
+        width: 100%;
+    }
+
+    .cont7 .form {
+        width: 100%;
+    }
+
+    .cont7 .form-group1,
+    .cont7 .form-group2,
+    .cont7 .form-group3,
+    .cont7 .form-group4,
+    .cont7 .message {
+        max-width: 100%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .cont7 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .cont7 .form {
+        width: 100%;
+    }
+
+    .cont7 .form input {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .cont7 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .cont7 h3 {
+        font-size: 36px;
+    }
+
+    .cont7 p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .cont7 .form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cont7 .form input {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .cont7 .form .message {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .cont7 .form i {
+        margin-left: 0;
+    }
+
+}
+
+/* =========================
+   CONTACT RESPONSIVE FIX
+========================= */
+
+@media (max-width: 1199px) {
+
+    .cont7 {
+        margin-left: 0 !important;
+        padding: 50px 10% !important;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .cont7 .form {
+        width: 100%;
+    }
+
+    .cont7 .form-group1,
+    .cont7 .form-group2,
+    .cont7 .form-group3,
+    .cont7 .form-group4 {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+        box-sizing: border-box;
+    }
+
+    .cont7 .message {
+        width: 100% !important;
+        margin-bottom: 40px !important;
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Parent5 {
+        padding: 60px 0;
+    }
+
+    .Parent5 .bigcard2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .cont7 {
+        margin-left: 0 !important;
+        margin-top: 25px;
+        padding: 45px 8% !important;
+    }
+
+    .cont7 h3 {
+        font-size: 40px;
+    }
+
+    .cont7 p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .Parent5 {
+        padding: 50px 0;
+    }
+
+    .Parent5 .bigcard2 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .cont7 {
+        margin-left: 0 !important;
+        margin-top: 25px;
+        padding: 40px 25px !important;
+        width: 100% !important;
+        height: auto !important;
+        box-sizing: border-box;
+    }
+
+    .cont7 h3 {
+        font-size: 36px;
+    }
+
+    .cont7 p {
+        font-size: 14px;
+        line-height: 1.7;
+        padding-bottom: 15px;
+    }
+
+    .cont7 .form {
+        width: 100%;
+    }
+
+    .cont7 .form input {
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cont7 .form-group1,
+    .cont7 .form-group2,
+    .cont7 .form-group3,
+    .cont7 .form-group4 {
+        margin-right: 0 !important;
+        margin-bottom: 25px !important;
+    }
+
+    .cont7 .message {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 575px) {
+
+    .Parent5 {
+        padding: 40px 0;
+    }
+
+    .cont7 {
+        padding: 30px 20px !important;
+        border-radius: 20px;
+    }
+
+    .cont7 h3 {
+        font-size: 31px;
+    }
+
+    .cont7 p {
         font-size: 10px;
     }
-    .Card-body span {
-        font-size: 20px;
-        
+
+}
+/* =========================
+   ABOUT SECTION FIX
+========================= */
+
+@media (min-width: 992px) {
+
+    .Parent-3 .cont4 {
+        padding: 35px 40px !important;
     }
-    .bucket-icon {
-        width: 35px;
+
+    .Parent-3 .cont4 h2 {
+        font-size: 38px !important;
+        margin-bottom: 15px;
     }
-    .Card-body a{
-        margin-bottom: -35px;
+
+    .Parent-3 .cont4 p {
+        font-size: 12px !important;
+        line-height: 1.55 !important;
+        margin-bottom: 15px;
     }
-    .cont4 {
-       margin-top: 35px;
+
+    .Parent-3 .cont4 span {
+        font-size: 13px !important;
     }
-    .span {
-        margin-left: -84px;
-        margin-top: 22px;
+
+}
+/* =========================================================
+   CONTACT PAGE RESPONSIVE CSS
+   Works with:
+   testimonials.css
+   style.css
+   Bootstrap 5
+========================================================= */
+
+
+/* =========================================================
+   GLOBAL RESPONSIVE FIX
+========================================================= */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container,
+.container-fluid {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   TOP BAR
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .section-top .cont1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px 15px;
     }
-    .card1 {
-        height: 130px;
+
+    .section-top .cont1 a {
+        font-size: 11px;
     }
-    .cont8 h3 {
-        font-size: 27px;
-        padding-top: 20px;
+
+    .section-top .icons {
+        text-align: center;
     }
-    .icons3 a {
-        font-size: 10px;
+
+}
+
+
+/* =========================================================
+   HEADER / NAVIGATION
+========================================================= */
+
+@media (max-width: 991px) {
+
+    header .logo {
+        text-align: center;
+        font-size: 22px;
     }
-    .links li a {
-        font-size: 13px; 
-        margin-left: -45px;
+
+    header .Nav {
+        width: 100%;
     }
-    .links::before {
-        right: 35px;
+
+    header .Nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px 14px;
+        padding: 0;
+        margin: 0;
     }
-    .links h5 {
-        font-size: 20px;
-        margin-bottom: 23px;
-        margin-left: -44px;
+
+    header .Nav ul li {
+        list-style: none;
     }
-    .links2 h5 {
-        font-size: 23px;
-        margin-bottom: 22px;
-    }
-    .section-end {
+
+    header .Nav ul a {
+        margin: 0;
         font-size: 12px;
     }
-    .text-end {
-        padding-top: 0px; 
-        font-size: 13px;
+
+    header .icons2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
     }
-    .cont7 {
-        margin-left: 12px;
+
+    header .icon-img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        margin: 0;
+        padding: 0;
     }
+
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px){
-.section-top {
-    padding: 10px 0px;
+
+
+/* =========================================================
+   TABLET HEADER
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    header .Nav ul {
+        gap: 6px 10px;
+    }
+
+    header .Nav ul a {
+        font-size: 11px;
+    }
+
+    header .icon-img {
+        width: 21px;
+        height: 21px;
+    }
+
 }
-.cont1 a {
-font-size: 14px;
+
+
+/* =========================================================
+   CONTACT HERO
+========================================================= */
+
+.Contactus-section {
+    width: 100%;
 }
-.icons a {
-    font-size: 12px;
+
+.Contact-us {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
-.Nav ul a {
-    font-size: 15px;
+
+.Contact-us h1 {
+    line-height: 1.15;
 }
-.logo {
-    font-size: 20px;
+
+.Contact-us p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
 }
-.icon-img {
-    width: 21px;
-    padding-top: 18px;
-    margin-right: 14px;
+
+
+/* =========================================================
+   CONTACT INFORMATION CARDS
+========================================================= */
+
+.Card-section {
+    width: 100%;
 }
-.cont2 span {
-    font-size: 16px;
-}
-.cont2 p {
-    font-size: 16px;
-}
-.cont2 a {
-    padding: 18px 42px;
-    font-size:17px;
-    border-radius: 15px;
-}
-.cont3 h3 {
-    font-size: 60px;
-}
-.cont3 p {
-    font-size: 20px;
-}
-.Card-body p {
-    font-size: 14px;
-}
-.Card-body span {
-    font-size: 30px;
-}
-.cont4 h2 {
-    font-size: 60px;
-}
-.cont4 p {
-    font-size: 16px;
-}
-.cont4 span {
-    padding: 12px 35px;
-    font-size: 17px;
-}  
-.content5 h3 {
-    font-size: 55px;
-} 
-.content5 p {
-    font-size: 15px;
-    font-weight: 400;
-}
-.content6 h5 {
-    font-size: 30px;
-}
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-.section-top {
-    padding: 10px 0px;
-}
-.icons a {
-    font-size: 15px;
-}
-.logo {
-    font-size: 20px;
-}
-.Nav ul a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 15px;
-    margin-right: 15px;
-}
-.icon-img {
-    width: 23px;
-    padding-top: 25px;
-}
-.cont2 span {
-    font-size: 15px;
-}
-.cont2 p {
-    font-size: 15px;
-}
-.Card-body h4 {
-    font-size: 21px;
-}
-.cont4 p {
-    font-size: 25px;
-}
-.span {
-    margin-top: 20px;
-}
-.content6 h5 {
-    font-size: 30px;
-}
-.bigcard2 {
-    height: 90%;
-}
-.Parent5 {
-    padding: 58px 0px;
-}
-.card1 {
-    width: 111%;
+
+.box-inf {
+    width: 100%;
     height: 100%;
+    min-height: 170px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.cont7 {
-    height: 90%;
+
+.box-inf h5 {
+    margin: 8px 0;
 }
-.cont8 h3 {
-    font-size: 35px;
+
+.box-inf p {
+    margin-bottom: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 }
-.icons3 a {
-    font-size: 17px;
+
+.map,
+.Phone,
+.email,
+.time {
+    flex-shrink: 0;
 }
-.links h5 {
-    font-size: 29px;
-    margin-bottom: 30px;
+
+
+/* =========================================================
+   CONTACT FORM + MAP
+========================================================= */
+
+.contact-form {
+    width: 100%;
+    margin: 0;
 }
-.links li a {
-    margin-bottom: 29px;
-    font-size: 17px;
+
+.contact-form > [class*="col-"] {
+    min-width: 0;
 }
-.links::before {
-        right: 20px;
+
+.Your-Name,
+.Your-Email,
+.Your-Address,
+.Your-Phone,
+.Your-Message {
+    width: 100%;
+    max-width: 100%;
 }
-.links:after {
-    left: -70px;
+
+.Your-Name input,
+.Your-Email input,
+.Your-Address input,
+.Your-Phone input,
+.Your-Message textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
+    display: block;
+    box-sizing: border-box;
 }
-.section-end-img img {
-    width: 170px;
+
+.Your-Message textarea {
+    resize: vertical;
 }
-p {
-    font-size: 19px;
+
+.Your-Message-btn {
+    width: 100%;
 }
-.text-end {
-    padding-top: 0px;
-    font-size: 19px;
+
+
+/* =========================================================
+   MAP IMAGE
+========================================================= */
+
+.map-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   1200px - LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1200px) {
+
+    .Card-section .box-inf {
+        min-height: 180px;
+    }
+
+    .contact-form {
+        padding-right: 20px;
+    }
+
+    .map-img {
+        min-height: 430px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
+/* =========================================================
+   992px - 1199px
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .Contact-us {
+        padding: 120px 30px;
+    }
+
+    .Contact-us h1 {
+        font-size: 52px;
+    }
+
+    .Contact-us p {
+        font-size: 11px;
+    }
+
+    .box-inf {
+        min-height: 165px;
+        padding: 22px 12px;
+    }
+
+    .box-inf p {
+        font-size: 11px;
+    }
+
+    .Your-Name input,
+    .Your-Email input,
+    .Your-Address input,
+    .Your-Phone input {
+        padding: 14px !important;
+    }
+
+    .map-img {
+        height: 100%;
+        min-height: 400px;
+        object-fit: cover;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET 768px - 991px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Hero */
+
+    .Contact-us {
+        padding: 100px 30px;
+    }
+
+    .Contact-us h1 {
+        font-size: 48px;
+        padding-bottom: 15px;
+    }
+
+    .Contact-us p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+
+    /* Info cards */
+
+    .box-inf {
+        min-height: 160px;
+        padding: 22px 10px;
+    }
+
+    .box-inf h5 {
+        font-size: 17px;
+    }
+
+    .box-inf p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+
+    /* Form */
+
+    .contact-form {
+        padding-right: 10px;
+    }
+
+    .Your-Name,
+    .Your-Email,
+    .Your-Address,
+    .Your-Phone {
+        margin-bottom: 10px;
+    }
+
+    .Your-Name label,
+    .Your-Email label,
+    .Your-Address label,
+    .Your-Phone label {
+        font-size: 11px;
+    }
+
+    .Your-Name input,
+    .Your-Email input,
+    .Your-Address input,
+    .Your-Phone input {
+        width: 100% !important;
+        padding: 13px !important;
+    }
+
+    .Your-Address label,
+    .Your-Phone label {
+        margin-top: 20px !important;
+    }
+
+    .Your-Message {
+        margin: 25px 0;
+    }
+
+    .Your-Message textarea {
+        width: 100% !important;
+    }
+
+
+    /* Map */
+
+    .map-img {
+        width: 100%;
+        height: 100%;
+        min-height: 450px;
+        object-fit: cover;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE 576px - 767px
+========================================================= */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* TOP BAR */
+
+    .section-top .cont1 {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .section-top .cont1 a {
+        font-size: 10px;
+    }
+
+
+    /* HEADER */
+
+    header .logo {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    header .Nav ul {
+        gap: 7px 10px;
+    }
+
+    header .Nav ul a {
+        font-size: 11px;
+    }
+
+
+    /* HERO */
+
+    .Contact-us {
+        padding: 80px 20px;
+    }
+
+    .Contact-us h1 {
+        font-size: 42px;
+    }
+
+    .Contact-us p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+
+    /* CARDS */
+
+    .box-inf {
+        min-height: 155px;
+        padding: 20px 10px;
+    }
+
+    .box-inf h5 {
+        font-size: 16px;
+    }
+
+    .box-inf p {
+        font-size: 11px;
+    }
+
+
+    /* FORM */
+
+    .contact-form {
+        padding: 0;
+    }
+
+    .Your-Name,
+    .Your-Email,
+    .Your-Address,
+    .Your-Phone {
+        margin-bottom: 20px;
+    }
+
+    .Your-Name label,
+    .Your-Email label,
+    .Your-Address label,
+    .Your-Phone label {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+
+    .Your-Name input,
+    .Your-Email input,
+    .Your-Address input,
+    .Your-Phone input {
+        width: 100% !important;
+        padding: 14px !important;
+    }
+
+    .Your-Address label,
+    .Your-Phone label {
+        margin-top: 0 !important;
+    }
+
+    .Your-Message {
+        margin: 20px 0;
+    }
+
+    .Your-Message textarea {
+        width: 100% !important;
+    }
+
+
+    /* MAP */
+
+    .map-img {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE 0px - 575px
+========================================================= */
+
+@media (max-width: 575px) {
+
+    /* =====================================================
+       TOP BAR
+    ===================================================== */
+
+    .section-top {
+        padding: 8px 0;
+    }
+
+    .section-top .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-top .col-6,
+    .section-top .col-sm-6 {
+        width: 100%;
+    }
+
+    .section-top .cont1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .section-top .cont1 a {
+        display: block;
+        font-size: 10px;
+        line-height: 1.4;
+        margin: 2px 0;
+    }
+
+    .section-top .cont1 a:nth-child(3) {
+        display: none;
+    }
+
+    .section-top .icons {
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .section-top .icons a {
+        font-size: 11px;
+        margin: 0 5px;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    header {
+        width: 100%;
+    }
+
+    header .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .col-4,
+    header .col-sm-4 {
+        width: 100%;
+    }
+
+    header .logo {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    header .Nav {
+        width: 100%;
+    }
+
+    header .Nav ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 7px 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .Nav ul a {
+        margin: 0;
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    header .Nav ul li {
+        list-style: none;
+    }
+
+    header .icons2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-top: 15px;
+    }
+
+    header .icon-img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* =====================================================
+       CONTACT HERO
+    ===================================================== */
+
+    .Contactus-section {
+        width: 100%;
+    }
+
+    .Contact-us {
+        padding: 65px 18px;
+        width: 100%;
+    }
+
+    .Contact-us h1 {
+        font-size: 36px;
+        line-height: 1.15;
+        letter-spacing: 1px;
+        padding-bottom: 12px;
+        margin-bottom: 0;
+    }
+
+    .Contact-us p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 1.7;
+        margin-bottom: 0;
+    }
+
+
+    /* =====================================================
+       CONTACT CARDS
+    ===================================================== */
+
+    .Card-section {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .Card-section > .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .box-inf {
+        width: 100%;
+        min-height: 145px;
+        height: 100%;
+        padding: 20px 10px;
+        margin: 0;
+        border-radius: 12px;
+    }
+
+    .box-inf h5 {
+        font-size: 16px;
+        margin: 7px 0;
+    }
+
+    .box-inf p {
+        font-size: 10px;
+        line-height: 1.5;
+        overflow-wrap: anywhere;
+        margin-bottom: 0;
+    }
+
+    .map,
+    .Phone,
+    .email,
+    .time {
+        width: 38px;
+        height: 38px;
+        padding: 9px;
+        object-fit: contain;
+    }
+
+
+    /* =====================================================
+       FORM
+    ===================================================== */
+
+    .contact-form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-form > .col-12,
+    .contact-form > [class*="col-"] {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .Your-Name,
+    .Your-Email,
+    .Your-Address,
+    .Your-Phone,
+    .Your-Message {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Your-Name label,
+    .Your-Email label,
+    .Your-Address label,
+    .Your-Phone label,
+    .Your-Message label {
+        display: block;
+        width: 100%;
+        font-size: 10px;
+        margin-top: 0 !important;
+        margin-bottom: 8px;
+        line-height: 1.4;
+    }
+
+    .Your-Name input,
+    .Your-Email input,
+    .Your-Address input,
+    .Your-Phone input {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        padding: 13px !important;
+        font-size: 13px;
+        border-radius: 7px;
+    }
+
+    .Your-Name,
+    .Your-Email,
+    .Your-Address,
+    .Your-Phone {
+        margin-bottom: 18px;
+    }
+
+    .Your-Message {
+        margin: 20px 0;
+    }
+
+    .Your-Message textarea {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        padding: 13px !important;
+        font-size: 13px;
+        border-radius: 7px;
+        resize: vertical;
+    }
+
+
+    /* =====================================================
+       BUTTON
+    ===================================================== */
+
+    .Your-Message-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Your-Message-btn button {
+        width: 100%;
+        max-width: 200px;
+        padding: 10px 20px;
+    }
+
+
+    /* =====================================================
+       MAP
+    ===================================================== */
+
+    .map-img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 0;
+        margin-top: 30px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
    
+
+/* =========================================================
+   VERY SMALL PHONES 320px - 380px
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .Contact-us {
+        padding: 55px 15px;
+    }
+
+    .Contact-us h1 {
+        font-size: 32px;
+    }
+
+    .Contact-us p {
+        font-size: 9px;
+        line-height: 1.65;
+    }
+
+    .box-inf {
+        min-height: 135px;
+        padding: 17px 8px;
+    }
+
+    .box-inf h5 {
+        font-size: 15px;
+    }
+
+    .box-inf p {
+        font-size: 9px;
+    }
+
+    header .logo {
+        font-size: 18px;
+    }
+
+    header .Nav ul {
+        gap: 6px 8px;
+    }
+
+    header .Nav ul a {
+        font-size: 10px;
+    }
+
+    .Your-Name input,
+    .Your-Email input,
+    .Your-Address input,
+    .Your-Phone input,
+    .Your-Message textarea {
+        font-size: 12px;
+        padding: 12px !important;
+    }
+
+    .Parent6 .card1 {
+        height: 115px;
+    }
+
+    .cont8 h3 {
+        font-size: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   TOUCH DEVICES
+========================================================= */
+
+@media (hover: none) and (pointer: coarse) {
+
+    .Nav a,
+    .icons a,
+    .icons2 img,
+    .icons3 a,
+    button {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    input,
+    textarea,
+    button {
+        font-size: 16px;
+    }
+
 }
 }
-@media only screen and (min-width: 576px) and (max-width:767px){
-.section-top {
-    padding: 10px 0px;
+/* =========================================================
+   MY ACCOUNT PAGE RESPONSIVE
+========================================================= */
+
+.MyAccount-section {
+    width: 100%;
+    overflow: hidden;
 }
-.logo {
-    font-size: 15px;
+
+.MyAccount-Content {
+    width: 100%;
+    max-width: 100%;
 }
-.icon-img {
-    width: 15px;
-    padding-top: 20px;
-    margin-right: 5px;
+
+.Login {
+    width: 100%;
+    overflow: hidden;
 }
-.cont1 a {
-    font-size: 7px;
-    padding-top: 10px;
-    margin-right: 4px;
+
+.login-form,
+.Register-form {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
-.Nav ul a {
-    font-size: 10px;
-    margin-right: 8px;
+
+.login-form input,
+.Register-form input {
+    max-width: 100%;
+    box-sizing: border-box;
 }
-.cont2 h1 {
-    font-size: 40px;
+
+.login-form button,
+.Register-form button {
+    max-width: 100%;
 }
-.cont2 h1 span {
-    font-size: 40px;
-    font-family: 'Saudagar';
+
+.Parent6 {
+    width: 100%;
+    overflow: hidden;
 }
-.cont2 p {
-    font-size: 11px;
+
+.Parent6 .card1 {
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
-.Card-body h4 {
-    font-size: 33px;
+
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1200px) {
+
+    .MyAccount-Content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
 }
-.Card-body p {
-    font-size: 15px;
-    font-weight: 200;
+
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .MyAccount-Content {
+        padding: 0 25px;
+    }
+
+    .MyAccount-Content h1 {
+        font-size: 52px;
+    }
+
+    .MyAccount-Content p {
+        line-height: 1.7;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
+    .login-form input,
+    .Register-form input {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
 }
-.Card-body span {
-    font-size: 30px;
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .MyAccount-Content {
+        padding: 80px 25px;
+        text-align: center;
+    }
+
+    .MyAccount-Content h1 {
+        font-size: 46px;
+        line-height: 1.2;
+    }
+
+    .MyAccount-Content p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .Login {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
+    .login-form input,
+    .Register-form input {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 14px !important;
+        box-sizing: border-box;
+    }
+
+    .button-login {
+        width: 100%;
+    }
+
+    .button-login button {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .Register-form button {
+        max-width: 220px;
+    }
+
+    .Parent6 .card1 {
+        height: 150px;
+        object-fit: cover;
+    }
+
 }
-.Card-body {
-    margin-bottom: 25px;
+
+
+/* =========================================================
+   SMALL TABLET / MOBILE
+========================================================= */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .MyAccount-Content {
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .MyAccount-Content h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .MyAccount-Content p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .Login {
+        padding: 40px 15px 50px;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
+    .login-form input,
+    .Register-form input {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 14px !important;
+    }
+
+    .button-login {
+        width: 100%;
+    }
+
+    .button-login button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .Registerform-text {
+        width: 100%;
+    }
+
+    .Registerform-text p {
+        line-height: 1.6;
+    }
+
+    .Register-form button {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .Parent6 .card1 {
+        height: 140px;
+        object-fit: cover;
+    }
+
 }
-.cont4 {
-    margin-top: 25px;
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 575px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       ACCOUNT HERO
+    ========================= */
+
+    .MyAccount-section {
+        width: 100%;
+    }
+
+    .MyAccount-Content {
+        width: 100%;
+        padding: 60px 18px;
+        text-align: center;
+    }
+
+    .MyAccount-Content h1 {
+        font-size: 34px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .MyAccount-Content p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 1.7;
+        margin-bottom: 0;
+    }
+
+
+    /* =========================
+       LOGIN SECTION
+    ========================= */
+
+    .Login {
+        width: 100%;
+        padding: 35px 15px 50px;
+    }
+
+    .Login > .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Login .row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Login .row > [class*="col-"] {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* =========================
+       LOGIN FORM
+    ========================= */
+
+    .login-form {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .login-form h4,
+    .Register-form h4 {
+        font-size: 22px;
+        line-height: 1.4;
+        margin-bottom: 25px;
+    }
+
+    .form-username,
+    .form-password {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .form-username label,
+    .form-password label {
+        display: block;
+        width: 100%;
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+
+    .login-form input {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        padding: 13px !important;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       LOGIN BUTTON
+    ========================= */
+
+    .button-login {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .button-login button {
+        width: 100%;
+        max-width: 200px;
+        padding: 11px 20px;
+    }
+
+
+    /* =========================
+       REMEMBER / FORGOT
+    ========================= */
+
+    .checkbox {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .remember-me {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin: 0;
+    }
+
+    .remember-me input {
+        width: auto !important;
+    }
+
+    .text,
+    .Forgot {
+        font-size: 11px;
+    }
+
+
+    /* =========================
+       REGISTER FORM
+    ========================= */
+
+    .Register-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .register-field {
+        width: 100%;
+        margin-bottom: 17px;
+    }
+
+    .register-field label {
+        display: block;
+        width: 100%;
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+
+    .Register-form input {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        padding: 13px !important;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       REGISTER TEXT
+    ========================= */
+
+    .Registerform-text {
+        width: 100%;
+        margin: 15px 0 20px;
+    }
+
+    .Registerform-text p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+
+    /* =========================
+       REGISTER BUTTON
+    ========================= */
+
+    .Register-form .register-button {
+        width: 100%;
+        max-width: 220px;
+        padding: 11px 20px;
+    }
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .MyAccount-Content {
+        padding: 50px 15px;
+    }
+
+    .MyAccount-Content h1 {
+        font-size: 30px;
+    }
+
+    .MyAccount-Content p {
+        font-size: 9px;
+    }
+
+    .Login {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .login-form h4,
+    .Register-form h4 {
+        font-size: 20px;
+    }
+
+    .login-form input,
+    .Register-form input {
+        font-size: 12px;
+        padding: 12px !important;
+    }
+
+    .text,
+    .Forgot {
+        font-size: 10px;
+    }
+
+    .Parent6 .card1 {
+        height: 115px;
+    }
+
+    .cont8 h3 {
+        font-size: 20px;
+    }
+
 }
-.content5 h3 {
-    font-size: 40px;
+/* =========================================================
+   CART PAGE RESPONSIVE
+========================================================= */
+
+.Cart-section {
+    width: 100%;
+    overflow: hidden;
 }
-.content5 p {
-    font-size: 10px;
+
+.Cart-inf {
+    width: 100%;
+    max-width: 100%;
 }
-.span {
-    margin-left: -90px;
+
+.Card-table {
+    width: 100%;
+    overflow: hidden;
 }
-.person2 {
-    height: 190px;
-    margin-top: 30px;
-   
+
+.cart-table-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
-.content6 p {
-    font-size: 10px;
+
+.cart-table {
+    width: 100%;
+    min-width: 700px;
 }
-.cont7 {
-    margin-left: 0px;
-    margin-top: 25px;
+
+.product-cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
-.card1 {
-    width: 120%;
-    height: 150px;
+
+.productcart-1 {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
-.cont8 h3 {
-    font-size: 21px;}
-.icons3 a {
-    padding: 6px 6px;
-    font-size: 10px;
+
+.Product-inf {
+    min-width: 0;
 }
-.links h5 {
-   
-    font-size: 20px;
-    margin-bottom: 16px;
+
+.Product-inf h6 {
+    margin-bottom: 5px;
 }
-.links:after {
-    left: -50px;
+
+.Product-inf p {
+    margin-bottom: 0;
 }
-.links li a {
-    margin-bottom: 15px;
-    font-size: 14px;
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    white-space: nowrap;
 }
-.links::before {
-    right: -16px;
+
+.quantity-box button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
 }
-.links2 h5 {
-    font-size: 20px;
-    margin-bottom: 18px;
-    margin-left: 30px;
+
+.quantity-box span {
+    display: inline-block;
 }
-.links2 a {
-    font-size: 9px;
-    margin-left: 30px;
+
+.table2 {
+    min-width: 0;
 }
-.text-end {
-    padding-top: 0px;
+
+.table-2 {
+    width: 100%;
 }
-.section-end-img img{
-    width: 140px;}
+
+.Order-Summary {
+    width: 100%;
 }
-/*About css*/
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-.cont3 h1 {
-    font-size: 70px;
+
+.checkout-btn {
+    max-width: 100%;
 }
-.cont4 {
-    margin-top: 30px;
+
+.Parent6 {
+    width: 100%;
+    overflow: hidden;
 }
-.cont4 {
-    margin-top: 30px;
+
+.Parent6 .card1 {
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
-.Parent4 {
+
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .Cart-inf {
+        padding: 100px 25px;
+    }
+
+    .Cart-inf h1 {
+        font-size: 52px;
+    }
+
+    .cart-table {
+        min-width: 680px;
+    }
+
+    .productcart-1 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Product-inf p {
+        font-size: 11px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Cart-inf {
+        padding: 90px 25px;
+        text-align: center;
+    }
+
+    .Cart-inf h1 {
+        font-size: 48px;
+    }
+
+    .Cart-inf p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .Card-table {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .cart-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .cart-table {
+        min-width: 700px;
+    }
+
+    .table2 {
+        margin-top: 20px;
+    }
+
+    .table-2 {
+        width: 100%;
+    }
+
+    .checkout-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .Parent6 .card1 {
+        height: 150px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL TABLET
+========================================================= */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .Cart-inf {
+        padding: 75px 20px;
+        text-align: center;
+    }
+
+    .Cart-inf h1 {
+        font-size: 42px;
+    }
+
+    .Cart-inf p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .Card-table {
+        padding: 35px 15px 50px;
+    }
+
+    .Card-heading {
+        font-size: 28px;
+    }
+
+    .cart-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .cart-table {
+        min-width: 680px;
+    }
+
+    .productcart-1 {
+        width: 75px;
+        height: 75px;
+    }
+
+    .Product-inf h6 {
+        font-size: 14px;
+    }
+
+    .Product-inf p {
+        font-size: 10px;
+    }
+
+    .table2 {
+        margin-top: 20px;
+    }
+
+    .checkout-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .Parent6 .card1 {
+        height: 140px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 575px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       CART HERO
+    ========================= */
+
+    .Cart-section {
+        width: 100%;
+    }
+
+    .Cart-inf {
+        width: 100%;
+        padding: 60px 18px;
+        text-align: center;
+    }
+
+    .Cart-inf h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .Cart-inf p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 1.7;
+        margin-bottom: 0;
+    }
+
+
+    /* =========================
+       CART TABLE
+    ========================= */
+
+    .Card-table {
+        width: 100%;
+        padding: 30px 12px 45px;
+    }
+
+    .Card-heading {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .cart-table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        border-radius: 5px;
+    }
+
+    .cart-table {
+        min-width: 650px;
+        margin-bottom: 0;
+    }
+
+    .cart-table th,
+    .cart-table td {
+        font-size: 11px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .product-cart-item {
+        gap: 10px;
+    }
+
+    .productcart-1 {
+        width: 65px;
+        height: 65px;
+    }
+
+    .Product-inf {
+        width: 160px;
+        white-space: normal;
+    }
+
+    .Product-inf h6 {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .Product-inf p {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .quantity-box {
+        gap: 8px;
+    }
+
+
+    /* =========================
+       ORDER SUMMARY
+    ========================= */
+
+    .table2 {
+        width: 100%;
+        margin-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .table-2 {
+        width: 100%;
+    }
+
+    .table2-title {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .Order-Summary {
+        width: 100%;
+    }
+
+    .Order-Summary td {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .checkout-btn {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        margin: 20px auto 0;
+        padding: 12px 20px;
+    }
+
+
+    /* =========================
+       IMAGE STRIP
+    ========================= */
+
+    .Parent6 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Parent6 .row {
+        margin: 0;
+    }
+
+    .Parent6 .col-6,
+    .Parent6 .col-sm-6 {
+        width: 50%;
+        padding: 0 !important;
+    }
+
+    .Parent6 .card1 {
+        width: 100%;
+        height: 135px;
+        display: block;
+        object-fit: cover;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .Parent7 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Parent7 .col-12,
+    .Parent7 .col-sm-12 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cont8,
+    .icons3,
+    .links,
+    .links2 {
+        text-align: center;
+    }
+
+    .cont8 h3 {
+        font-size: 22px;
+    }
+
+    .links h5,
+    .links2 h5 {
+        font-size: 21px;
+    }
+
+    .links ul {
+        padding: 0;
+    }
+
+    .links li {
+        list-style: none;
+    }
+
+    .links2 a {
+        display: block;
+        font-size: 11px;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* =========================
+       FOOTER BOTTOM
+    ========================= */
+
+    .footer-bottom .row {
+        width: 100%;
+    }
+
+    .section-end {
+        text-align: center;
+    }
+
+    .section-end p {
+        font-size: 10px;
+    }
+
+    .section-end-img {
+        text-align: center !important;
+    }
+
+    .section-end-img img {
+        width: 140px;
+        max-width: 90%;
+        height: auto;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .Cart-inf {
+        padding: 50px 15px;
+    }
+
+    .Cart-inf h1 {
+        font-size: 31px;
+    }
+
+    .Cart-inf p {
+        font-size: 9px;
+    }
+
+    .Card-table {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Card-heading {
+        font-size: 23px;
+    }
+
+    .cart-table {
+        min-width: 620px;
+    }
+
+    .productcart-1 {
+        width: 58px;
+        height: 58px;
+    }
+
+    .Product-inf {
+        width: 145px;
+    }
+
+    .Parent6 .card1 {
+        height: 115px;
+    }
+
+}
+}
+/* =====================================================
+   ACCOUNT - LOGIN & REGISTER
+===================================================== */
+
+
+/* Desktop - original design */
+.login-form,
+.Register-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-Username,
+.form-Password,
+.Email-address,
+.Email-Password,
+.Retype-Password,
+.First-name,
+.Last-name,
+.button-login,
+.Register-form button {
+    box-sizing: border-box;
+}
+
+
+/* =====================================================
+   1200px - 1399px
+   ===================================================== */
+
+@media (max-width: 1399.98px) and (min-width: 1200px) {
+
+    .form-Username,
+    .form-Password,
+    .button-login,
+    .Email-address,
+    .Email-Password,
+    .Retype-Password,
+    .Register-form button {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .First-name,
+    .Last-name {
+        width: calc(50% - 30px);
+        max-width: 238px;
+    }
+
+}
+
+
+/* =====================================================
+   992px - 1199px
+   This handles 110%, 125% zoom overflow
+===================================================== */
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+    /* LOGIN */
+
+    .form-username,
+    .form-password {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-Username,
+    .form-Password {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .button-login {
+        width: 100%;
+        max-width: 500px;
+        margin-left: 0;
+    }
+
+
+    /* REGISTER */
+
+    .register-name {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .First-name,
+    .Last-name {
+        width: calc(50% - 5px);
+        max-width: none;
+        margin-left: 0;
+    }
+
+    .Email-address,
+    .Email-Password,
+    .Retype-Password {
+        width: 100%;
+        max-width: 500px;
+        margin-left: 0;
+    }
+
+    .Register-form button {
+        width: 100%;
+        max-width: 500px;
+        margin-left: 0;
+    }
+
+    .Registerform-text p {
+        margin-left: 0;
+    }
+
+}
+
+
+/* =====================================================
+   TABLET
+   ===================================================== */
+
+@media (max-width: 991.98px) {
+
+    .Login .row {
+        row-gap: 30px;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* LOGIN */
+
+    .form-username,
+    .form-password {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-Username,
+    .form-Password {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .button-login {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    /* REGISTER */
+
+    .register-name {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .First-name,
+    .Last-name {
+        width: calc(50% - 5px);
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .Email-address,
+    .Email-Password,
+    .Retype-Password {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .Register-form button {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .Registerform-text p {
+        margin-left: 0;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 575.98px) {
+
+    .Login {
+        padding: 40px 0;
+    }
+
+    .Login .row {
+        row-gap: 30px;
+    }
+
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+
+    /* LOGIN */
+
+    .form-username,
+    .form-password {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-Username,
+    .form-Password,
+    .button-login {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    /* REGISTER */
+
+    .register-name {
+        display: block;
+        width: 100%;
+    }
+
+    .First-name,
+    .Last-name {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .Email-address,
+    .Email-Password,
+    .Retype-Password {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .Register-form button {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .Registerform-text p {
+        margin-left: 0;
+    }
+
+}
+
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .login-form,
+    .Register-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .login-form h4,
+    .Register-form h4 {
+        font-size: 24px;
+    }
+
+}
+
+/* =========================================================
+   TESTIMONIAL SECTIONS
+   ========================================================= */
+
+.JohnDoey-section,
+.testimonial-reverse,
+.testimonial-third,
+.JohnDoey-section2 {
+    width: 100%;
     padding: 80px 0;
 }
-.Parent5 {
-    padding: 5px
+
+.JohnDoey-section {
+    background-color: #ffffff;
 }
-.cont5 h3 {
-    font-size: 45px;
+
+.testimonial-reverse {
+    background-color: #f8f4f5;
 }
-.cont6 h3 {
-    font-size: 45px;
+
+.testimonial-third {
+    background-color: #ffffff;
 }
-.content6 h5 {
-    font-size: 28px;
+
+.JohnDoey-section2 {
+    background-color: #f8f4f5;
 }
-.content6 span {
-    font-size: 19px;
+
+
+/* =========================================================
+   IMAGE
+   ========================================================= */
+
+.testimonial-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 390px;
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+.testimonial-content {
+    width: 100%;
+    max-width: 850px;
+    padding: 20px 30px;
+}
+
+.John-Doey {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.John-Doey i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #91666d;
+    color: #ffffff;
+
+    font-size: 18px;
+}
+
+.John-Doey h4 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     font-weight: 600;
+    color: #333333;
 }
-.content6 p {
+
+
+/* =========================================================
+   STARS
+   ========================================================= */
+
+.Stars {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0 20px;
+}
+
+.Stars i {
+    color: #91666d;
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   PARAGRAPH
+   ========================================================= */
+
+.paragraph {
+    width: 100%;
+}
+
+.paragraph p {
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    line-height: 1.9;
+    color: #666666;
 }
-.icons-5 {
-    font-size: 20px;
+
+
+
+
+
+/* =========================================================
+   LARGE SCREEN
+   ========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .Testimonials {
+        padding: 120px 20px;
+    }
+
+    .Testimonials h1 {
+        font-size: 52px;
+    }
+
+    .JohnDoey-section,
+    .testimonial-reverse,
+    .testimonial-third,
+    .JohnDoey-section2 {
+        padding: 65px 0;
+    }
+
+    .testimonial-content {
+        padding: 15px 20px;
+    }
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4 {
+        max-width: 300px;
+        height: 350px;
+    }
+
+    .card1 {
+        height: 200px;
+    }
+
 }
-.person2 {
-    height: 290px;
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Testimonials {
+        padding: 100px 20px;
+    }
+
+    .Testimonials h1 {
+        font-size: 45px;
+    }
+
+    .Testimonials p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .JohnDoey-section,
+    .testimonial-reverse,
+    .testimonial-third,
+    .JohnDoey-section2 {
+        padding: 55px 0;
+    }
+
+    .testimonial-image {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-content {
+        max-width: 100%;
+        padding: 10px 15px;
+    }
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4 {
+        width: 100%;
+        max-width: 330px;
+        height: 350px;
+    }
+
+    .paragraph p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .card1 {
+        height: 180px;
+    }
+
 }
-.aboutfluid {
-    height: 292px;
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .Testimonials {
+        padding: 80px 15px;
+    }
+
+    .Testimonials h1 {
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+
+    .Testimonials p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+
+    .JohnDoey-section,
+    .testimonial-reverse,
+    .testimonial-third,
+    .JohnDoey-section2 {
+        padding: 45px 0;
+    }
+
+
+    .testimonial-image {
+        margin-bottom: 25px;
+    }
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4 {
+        width: 100%;
+        max-width: 280px;
+        height: 300px;
+    }
+
+
+    .testimonial-content {
+        padding: 10px 5px;
+    }
+
+
+    .John-Doey {
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .John-Doey i {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .John-Doey h4 {
+        font-size: 20px;
+    }
+
+
+    .Stars {
+        margin-bottom: 15px;
+    }
+
+    .Stars i {
+        font-size: 13px;
+    }
+
+
+    .paragraph p {
+        font-size: 13px;
+        line-height: 1.75;
+    }
+
+
+    .card1 {
+        height: 150px;
+    }
+
+
+    .Parent7 {
+        padding-top: 50px;
+    }
+
+    .cont8,
+    .links,
+    .links2 {
+        margin-bottom: 35px;
+    }
+
+    .footer-bottom {
+        margin-top: 25px;
+    }
+
+    .section-end {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .section-end-img {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
 }
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 575.98px) {
+
+    .Testimonials {
+        padding: 65px 12px;
+    }
+
+    .Testimonials h1 {
+        font-size: 32px;
+    }
+
+    .Testimonials p {
+        font-size: 11px;
+    }
+
+
+    .JohnDoey-section,
+    .testimonial-reverse,
+    .testimonial-third,
+    .JohnDoey-section2 {
+        padding: 35px 0;
+    }
+
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4 {
+        max-width: 240px;
+        height: 260px;
+    }
+
+
+    .testimonial-content {
+        padding: 5px 0;
+    }
+
+
+    .John-Doey h4 {
+        font-size: 18px;
+    }
+
+    .John-Doey i {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+
+    .paragraph p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+
+    .card1 {
+        height: 125px;
+    }
+
+
+    .cont8 h3 {
+        font-size: 21px;
+    }
+
+    .links h5,
+    .links2 h5 {
+        font-size: 18px;
+    }
+
+    .links2 > a {
+        font-size: 12px;
+    }
+
 }
-@media only screen and (min-width: 576px) and (max-width:767px){
-.cont3 p {
-    font-size: 10px;
-}
-    .cont5 h3 {
-    font-size: 30px
-}
-.cont5 p {
-    font-size: 7px;
-    line-height: 16px;
-}
-.aboutfluid {
-    width: 100%;
-    height: 191px;
-}
- .cont6 h3 {
-    font-size: 30px
-}
-.cont6 p {
-    font-size: 7px;
-    line-height: 16px;
-}
+
+
+/* =========================================================
+   EXTRA SMALL
+   ========================================================= */
+
+@media (max-width: 399.98px) {
+
+    .Testimonials h1 {
+        font-size: 28px;
+    }
+
+    .Testimonials p {
+        font-size: 10px;
+    }
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4 {
+        max-width: 210px;
+        height: 230px;
+    }
+
+    .card1 {
+        height: 110px;
+    }
+
 }

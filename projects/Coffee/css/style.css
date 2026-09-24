@@ -13,6 +13,10 @@ img.logo {
     text-align: center;
     margin-top: 8px;
 }
+.Naviation ul li a{
+    color: white;
+    text-decoration: none;
+}
 .Naviation li{
     list-style: none;
     color: white;
@@ -345,3 +349,623 @@ footer{
 
 }
 
+/* =========================================================
+   RESPONSIVE CSS
+   ========================================================= */
+
+
+/* =========================
+   TABLET
+   992px and below
+   ========================= */
+
+@media (max-width: 991px) {
+
+    /* ================= HEADER ================= */
+
+    .section-top {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    img.logo {
+        width: 140px;
+        padding-top: 5px;
+    }
+
+    .Naviation ul {
+        margin-top: 8px;
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    .Naviation li {
+        font-size: 20px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .Coffe-section1 {
+        height: 75vh;
+        background-position: center;
+    }
+
+    .Main-heading h1 {
+        font-size: 70px;
+        padding-top: 30px;
+    }
+
+    .Main-heading p {
+        font-size: 28px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .Main-heading span {
+        font-size: 20px;
+        padding: 10px 24px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .About-inf {
+        padding: 60px 30px;
+    }
+
+    .About-inf h2 {
+        font-size: 50px;
+        margin-left: 0;
+    }
+
+    .About-inf p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .About-inf a {
+        margin-left: 0;
+    }
+
+    .Coffe-pic1 {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+
+    /* ================= CARDS ================= */
+
+    .Cards {
+        padding: 50px 30px;
+    }
+
+    .popular-menu h2 {
+        font-size: 48px;
+    }
+
+    .popular-menu p {
+        margin-bottom: 40px;
+    }
+
+    .Cards-Menu,
+    .Cards-Menu-2 {
+        padding-left: 20px;
+    }
+
+    .Cards-Menu-2 {
+        margin-top: 30px;
+    }
+
+    .Cards-Menu img,
+    .Cards-Menu-2 img {
+        width: 120px;
+    }
+
+
+    /* ================= BACKGROUND ================= */
+
+    .Peace-on-earth {
+        height: 75vh;
+        background-position: center;
+    }
+
+    .Peace-on-earth h2 {
+        font-size: 48px;
+        padding: 130px 30px 0;
+    }
+
+    .Peace-on-earth p {
+        font-size: 24px;
+    }
+
+
+    /* ================= SPECIAL OFFER ================= */
+
+    .special-offer {
+        padding: 50px 30px;
+    }
+
+    .special-offer h2 {
+        font-size: 60px;
+        padding-top: 20px;
+    }
+
+    .special-offer p {
+        padding: 0 20px;
+    }
+
+
+    /* ================= ORDER ================= */
+
+    .Order-section {
+        padding: 40px 30px;
+    }
+
+    .Order h2 {
+        font-size: 48px;
+    }
+
+    .Order p {
+        padding: 0 30px;
+    }
+
+    .Shape1 {
+        left: 10px;
+        width: 35px;
+    }
+
+    .Shape2 {
+        right: 5px;
+        width: 40px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    .Aboutus-inf p {
+        width: 100%;
+    }
+
+    .Links-3 {
+        margin-left: 0;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   767px and below
+   ========================================================= */
+html,
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+
+    /* ================= HEADER ================= */
+
+    .section-top {
+        height: auto;
+        padding: 12px 0;
+    }
+
+    img.logo {
+        width: 115px;
+        padding-top: 0;
+    }
+
+    .Naviation ul {
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Naviation li {
+        font-size: 13px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .Coffe-section1 {
+        height: 70vh;
+        min-height: 450px;
+        background-position: center;
+    }
+
+    .Main-heading {
+        padding: 0 15px;
+    }
+
+    .Main-heading h1 {
+        font-size: 48px;
+        line-height: 1.1;
+        padding-top: 40px;
+    }
+
+    .Main-heading p {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .Main-heading span {
+        display: inline-block;
+        font-size: 16px;
+        padding: 9px 20px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .About-inf {
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .About-inf h2 {
+        font-size: 45px;
+        margin-left: 0;
+    }
+
+    .About-inf p {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .About-inf a {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    .Coffe-pic1 {
+        height: auto;
+        width: 100%;
+    }
+
+
+    /* ================= CARDS ================= */
+
+    .Cards {
+        padding: 50px 20px;
+    }
+
+    .popular-menu h2 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .popular-menu p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    .Cards-Menu,
+    .Cards-Menu-2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Cards-Menu-2 {
+        margin-top: 20px;
+    }
+
+    .Cards-Menu img,
+    .Cards-Menu-2 img {
+        width: 130px;
+    }
+
+    .Cards-Menu h5,
+    .Cards-Menu-2 h5 {
+        font-size: 17px;
+        margin-left: 0;
+    }
+
+    .Cards-Menu p,
+    .Cards-Menu-2 p {
+        font-size: 11px;
+        line-height: 1.6;
+        padding: 0 20px;
+    }
+
+    .More-menu {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+
+    /* ================= BACKGROUND IMAGE ================= */
+
+    .Peace-on-earth {
+        height: 65vh;
+        min-height: 400px;
+        background-position: center;
+    }
+
+    .Peace-on-earth h2 {
+        font-size: 38px;
+        line-height: 1.2;
+        padding: 120px 20px 0;
+    }
+
+    .Peace-on-earth h2 span {
+        margin-top: 15px;
+    }
+
+    .Peace-on-earth p {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+
+    /* ================= SPECIAL OFFER ================= */
+
+    .special-offer {
+        padding: 45px 25px;
+    }
+
+    .special-offer h2 {
+        font-size: 48px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .special-offer p {
+        font-size: 14px;
+        line-height: 1.7;
+        padding: 0;
+    }
+
+    .special-offer span {
+        display: inline;
+    }
+
+    .special-offer .More-menu {
+        margin-top: 30px;
+    }
+
+
+    /* ================= ORDER ================= */
+
+    .Order-section {
+        padding: 40px 20px;
+    }
+
+    .Order h2 {
+        font-size: 42px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .Order p {
+        font-size: 12px;
+        line-height: 1.7;
+        padding: 0 15px;
+    }
+
+    .Order span {
+        display: inline;
+    }
+
+    .Code button {
+        margin-top: 20px;
+    }
+
+    .Shape1 {
+        left: 0;
+        top: 0;
+        width: 30px;
+    }
+
+    .Shape2 {
+        right: 0;
+        bottom: 60px;
+        width: 35px;
+    }
+
+
+    /* ================= SOCIAL ================= */
+
+    .Social-icons {
+        padding: 45px 0;
+    }
+
+    .icons a {
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        padding: 40px 25px;
+    }
+
+    .Aboutus-inf {
+        text-align: center;
+    }
+
+    .Aboutus-inf h5 {
+        font-size: 25px;
+    }
+
+    .Aboutus-inf p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .About-links,
+    .Links-2,
+    .Links-3 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .About-links h5,
+    .Links-2 h5 {
+        margin-left: 0;
+    }
+
+    .Links-1,
+    .Links-2 ul {
+        padding-left: 0;
+    }
+
+    .Links-1 li,
+    .Links-2 li {
+        margin-bottom: 7px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   575px and below
+   ========================================================= */
+
+@media (max-width: 575px) {
+
+    /* ================= HEADER ================= */
+
+    .section-top {
+        padding: 10px 0;
+    }
+
+    img.logo {
+        width: 100px;
+    }
+
+    .Naviation ul {
+        gap: 5px;
+    }
+
+    .Naviation li {
+        font-size: 11px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .Coffe-section1 {
+        height: 65vh;
+        min-height: 400px;
+    }
+
+    .Main-heading h1 {
+        font-size: 40px;
+    }
+
+    .Main-heading p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .Main-heading span {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .About-inf {
+        padding: 40px 20px;
+    }
+
+    .About-inf h2 {
+        font-size: 40px;
+    }
+
+    .About-inf p {
+        font-size: 13px;
+    }
+
+
+    /* ================= CARDS ================= */
+
+    .Cards {
+        padding: 45px 15px;
+    }
+
+    .popular-menu h2 {
+        font-size: 38px;
+    }
+
+    .popular-menu p {
+        font-size: 12px;
+    }
+
+    .Cards-Menu img,
+    .Cards-Menu-2 img {
+        width: 120px;
+    }
+
+
+    /* ================= BACKGROUND ================= */
+
+    .Peace-on-earth {
+        height: 60vh;
+        min-height: 350px;
+    }
+
+    .Peace-on-earth h2 {
+        font-size: 32px;
+        padding: 100px 15px 0;
+    }
+
+    .Peace-on-earth p {
+        font-size: 17px;
+    }
+
+
+    /* ================= SPECIAL OFFER ================= */
+
+    .special-offer {
+        padding: 40px 20px;
+    }
+
+    .special-offer h2 {
+        font-size: 42px;
+    }
+
+    .special-offer p {
+        font-size: 13px;
+    }
+
+
+    /* ================= ORDER ================= */
+
+    .Order h2 {
+        font-size: 36px;
+    }
+
+    .Order p {
+        font-size: 11px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        padding: 35px 20px;
+    }
+
+}

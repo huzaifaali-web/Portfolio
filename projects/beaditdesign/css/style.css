@@ -58,6 +58,7 @@ header{
 .Nav ul{
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 .Nav ul a{
     text-decoration: none;
@@ -252,11 +253,14 @@ header{
     font-weight: 200;
     padding-bottom: 30px;
 }
-.cont4 span{
+.cont4 span a{
     border: 1px solid white;
     font-family: "Saudagar",sans-serif;
     border-radius: 20px;
     padding: 8px 30px;
+    text-decoration: none;
+    color: white    ;
+
    
 }
 
@@ -411,7 +415,8 @@ color: #90666c;
     padding: 0px !important;
 }
 .Parent7{
-    background-image:url(../Images/background.png) ;
+    background-image:url("../images/background.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 0px 20px;
@@ -1104,7 +1109,7 @@ font-weight: 500;
     border: 2px solid #e0dcdc;
     border-radius: 7px;
 }
-.button-login{
+.button-login button{
     width: 500px;
     padding: 12px;
     font-weight: 400;
@@ -1116,21 +1121,23 @@ font-weight: 500;
      margin-top: 15px;
      border-radius: 8px;
      font-family: "Roboto",sans-serif;
-}
-.button-login a{
-    text-decoration: none;
+     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
+
 .checkbox{
     margin-left: 20px;
     margin-top: 30px;
 }
-.checkbox span{
- margin-right: 160px;
+.checkbox a span {
+ 
  font-size: 12px;
  font-weight: 100;
  width: 100%;
+ color: black;
+text-decoration: none;
+
 }
 .Register-form{
     border: 2px solid #91666d;

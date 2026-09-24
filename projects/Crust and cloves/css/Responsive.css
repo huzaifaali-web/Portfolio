@@ -1,0 +1,1208 @@
+/* =========================================================
+   CREST & CLOVE - RESPONSIVE MASTER CSS
+   =========================================================
+   IMPORTANT:
+   1. style.css ko change mat karo.
+   2. Ye file style.css ke BAAD load honi chahiye.
+   3. Desktop / large laptop layout ko unnecessary override
+      nahi kiya gaya.
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   TOP STRIP
+   ========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .section-top .container,
+    header .container {
+        max-width: 100%;
+    }
+
+    .section-top .row,
+    header .row {
+        align-items: center;
+    }
+
+    .contact-inf,
+    .free-shipping,
+    .wishlist-cart {
+        min-height: 42px;
+        display: flex;
+        align-items: center;
+    }
+
+    .free-shipping p {
+        text-align: center;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .contact-inf {
+        gap: 7px;
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+
+    .wishlist-cart {
+        justify-content: flex-end;
+        gap: 6px;
+        font-size: 11px;
+    }
+
+    header .logo img {
+        max-width: 125px;
+    }
+
+    .menue ul {
+        gap: 12px;
+    }
+
+    .menue ul a {
+        font-size: 12px;
+    }
+}
+
+
+/* =========================================================
+   HEADER - TABLET
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .section-top {
+        padding: 5px 0;
+    }
+
+    .section-top .row > div,
+    header .row > div {
+        width: 100%;
+    }
+
+    .contact-inf,
+    .free-shipping,
+    .wishlist-cart {
+        justify-content: center;
+        min-height: 30px;
+    }
+
+    .contact-inf {
+        margin-bottom: 2px;
+    }
+
+    .free-shipping p {
+        line-height: 1.4;
+    }
+
+    .wishlist-cart {
+        padding-bottom: 4px;
+    }
+
+    header {
+        padding: 12px 0;
+    }
+
+    header .logo {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    header .logo img {
+        max-width: 145px;
+    }
+
+    .menue {
+        width: 100%;
+    }
+
+    .menue ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px 18px;
+        padding-left: 0;
+        margin-bottom: 12px;
+    }
+
+    .menue ul a {
+        font-size: 12px;
+    }
+
+    .cart {
+        justify-content: center;
+    }
+}
+
+
+/* =========================================================
+   HEADER - MOBILE
+   ========================================================= */
+
+@media (max-width: 575.98px) {
+
+    .section-top .container,
+    header .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .contact-inf {
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .free-shipping p {
+        font-size: 9px;
+    }
+
+    .wishlist-cart {
+        font-size: 10px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .menue ul {
+        gap: 7px 12px;
+    }
+
+    .menue ul a {
+        font-size: 10px;
+    }
+
+    .cart {
+        font-size: 11px;
+    }
+}
+
+
+/* =========================================================
+   BANNER
+   ========================================================= */
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+
+    .banner img {
+        min-height: 180px;
+        object-fit: cover;
+    }
+}
+
+
+/* =========================================================
+   GENERIC RESPONSIVE SECTIONS
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .container {
+        max-width: 94%;
+    }
+
+    .shop-section,
+    .design-essential,
+    .catalogue,
+    .Our-Happy-Customers,
+    .Our-story,
+    .our-mission,
+    .our-vision,
+    .contact-details,
+    .form-sec,
+    .P-detail-section,
+    .product-details,
+    .cart-section,
+    .Checkout-form {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   HOMEPAGE / CARDS
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .shop-section .row,
+    .our-shop .row {
+        row-gap: 25px;
+    }
+
+    .card1,
+    .shop-card1 {
+        margin-bottom: 20px;
+    }
+
+    .design-essential,
+    .catalogue {
+        flex-wrap: wrap;
+    }
+
+    .design-meets,
+    .design-inf,
+    .essential-chefs,
+    .catalogue-inf,
+    .catalogue-img {
+        width: 100%;
+    }
+
+    .essential-chefs img,
+    .catalogue-img img {
+        width: 100%;
+        display: block;
+    }
+
+    .Our-Happy-Customers .our-customer {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .reviews-sec {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .Shop-collection h2,
+    .crest-clove-inf h2,
+    .section-heading,
+    .About-us h2 {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    .card1 h3,
+    .shop-card1 h3 {
+        font-size: 17px;
+    }
+
+    .card1,
+    .shop-card1 {
+        width: 100%;
+    }
+
+    .our-customer {
+        display: block !important;
+    }
+
+    .reviews-sec {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* =========================================================
+   ABOUT PAGE
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Our-story,
+    .our-mission,
+    .our-vision {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .abount-img,
+    .ourstory-inf,
+    .ourstory-paragraph,
+    .our-mission-img,
+    .our-vision-img,
+    .our-vision-text {
+        width: 100%;
+    }
+
+    .abount-img img,
+    .our-mission-img img,
+    .our-vision-img img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .Aboutus {
+        min-height: 100px;
+    }
+
+    .About-us h2 {
+        font-size: 22px;
+    }
+}
+
+
+/* =========================================================
+   SHOP / COLLECTION
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .categories,
+    .price-range,
+    .Lorem-ipsum {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .collection .row,
+    .shop .row,
+    .shop-section2 .row {
+        row-gap: 25px;
+    }
+}
+
+
+/* =========================================================
+   JOURNAL
+   =========================================================
+   IMPORTANT:
+   Desktop / laptop 992px+ is NOT modified here.
+
+   Original style.css has:
+       .journal-img-1 {
+           position: absolute;
+       }
+
+   That is the reason images disappear / overlap when
+   Bootstrap columns stack.
+
+   Below we only fix <= 991.98px.
+   ========================================================= */
+
+
+/* ---------- TABLET / SMALL LAPTOP ---------- */
+
+@media (max-width: 991.98px) {
+
+    .Cooking-recipes {
+        width: 100%;
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+
+
+    /* Bootstrap columns become full width */
+
+    .Cooking-recipes .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Cooking-recipes .row > .col-12 {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+
+    /* -----------------------------------------
+       FIRST & THIRD IMAGES
+       ----------------------------------------- */
+
+    .Cooking-recipes .journal-img-1 {
+        position: static !important;
+
+        display: block !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+
+        transform: none !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* -----------------------------------------
+       SECOND IMAGE
+       ----------------------------------------- */
+
+    .Cooking-recipes .Recipe-bakery {
+        position: relative !important;
+
+        width: 100% !important;
+        height: auto !important;
+
+        margin: 0 !important;
+
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+
+        overflow: visible !important;
+    }
+
+    .Cooking-recipes .Recipe-bakery img {
+        position: static !important;
+
+        display: block !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+
+        transform: none !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* -----------------------------------------
+       TEXT BOX
+       ----------------------------------------- */
+
+    .Cooking-recipes .cooking-tehniques-inf {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        box-sizing: border-box;
+
+        margin-top: 25px !important;
+    }
+
+
+    /* -----------------------------------------
+       JOURNAL SHAPES
+       ----------------------------------------- */
+
+    .Cooking-recipes .journal-shape1 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .Cooking-recipes .journal-shape1 img {
+        width: auto;
+        max-width: 20px;
+        height: auto;
+
+        display: inline-block;
+
+        margin-right: 10px;
+    }
+}
+
+
+/* =========================================================
+   JOURNAL - MOBILE
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .Cooking-recipes {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+
+    /* Images */
+
+    .Cooking-recipes .journal-img-1,
+    .Cooking-recipes .Recipe-bakery img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+
+        display: block !important;
+    }
+
+
+    /* Text */
+
+    .Cooking-recipes .cooking-tehniques-inf {
+        margin-top: 18px !important;
+
+        padding: 28px 18px !important;
+    }
+
+
+    /* Heading */
+
+    .Cooking-recipes .cooking-tehniques-inf h2,
+    .Cooking-recipes .cooking-tehniques-inf h3 {
+        font-size: 23px !important;
+        line-height: 1.3 !important;
+
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+
+    /* Paragraph */
+
+    .Cooking-recipes .cooking-tehniques-inf p {
+        font-size: 12px !important;
+        line-height: 1.7 !important;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* Shapes */
+
+    .Cooking-recipes .journal-shape1 {
+        display: flex !important;
+        align-items: center !important;
+
+        gap: 5px !important;
+
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+    }
+
+    .Cooking-recipes .journal-shape1 img {
+        width: auto !important;
+        max-width: 20px !important;
+        height: auto !important;
+
+        margin-right: 5px !important;
+    }
+}
+
+
+/* =========================================================
+   JOURNAL - SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 575.98px) {
+
+    .Cooking-recipes {
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+
+
+    .Cooking-recipes .cooking-tehniques-inf {
+        margin-top: 15px !important;
+
+        padding: 22px 14px !important;
+    }
+
+
+    .Cooking-recipes .cooking-tehniques-inf h2,
+    .Cooking-recipes .cooking-tehniques-inf h3 {
+        font-size: 20px !important;
+        line-height: 1.3 !important;
+    }
+
+
+    .Cooking-recipes .cooking-tehniques-inf p {
+        font-size: 12px !important;
+        line-height: 1.65 !important;
+    }
+
+
+    .Cooking-recipes .journal-shape1 {
+        font-size: 12px !important;
+    }
+
+
+    .Cooking-recipes .journal-shape1 img {
+        max-width: 18px !important;
+    }
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .contact-details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-detail-inf,
+    .location,
+    .question,
+    .form-sec {
+        width: 100%;
+    }
+
+    form .row {
+        row-gap: 10px;
+    }
+}
+
+
+/* =========================================================
+   PRODUCT DETAILS
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .product-details,
+    .P-detail-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-image-box,
+    .product-content,
+    .P-detail-img,
+    .P-detail-inf,
+    .lorem-inf {
+        width: 100%;
+    }
+
+    .product-image-box img,
+    .P-detail-img img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .P-detail-img-mini {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .quantity,
+    .cart-area {
+        flex-wrap: wrap;
+    }
+
+    .add-cart,
+    .wishlist,
+    .buynow,
+    .basket {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* =========================================================
+   CHECKOUT
+   ========================================================= */
+
+.Checkout-form {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 991.98px) {
+
+    .Checkout-form > .container > .row {
+        row-gap: 35px;
+    }
+
+    .Checkout-form > .container > .row > [class*="col-"] {
+        width: 100%;
+    }
+
+    .billing-details {
+        margin-bottom: 20px;
+    }
+
+    .Payement-heading {
+        margin-top: 0;
+    }
+
+    .Payement-details {
+        width: 100%;
+    }
+
+    .Payement-img {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Payement-img img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        flex: 0 0 90px;
+    }
+
+    .Payement-inf {
+        min-width: 0;
+    }
+
+    .Credit-cards {
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .Credit-cards img {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .Checkout-form {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .Checkout-form .row > [class*="col-"] {
+        width: 100%;
+    }
+
+    .Checkout-form .row > .col-6 {
+        width: 50%;
+    }
+
+    .Country-form,
+    .FirstName-form,
+    .LastName-form,
+    .Companyname-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Order-Notes textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Payement-img {
+        align-items: flex-start;
+    }
+
+    .Payement-img img {
+        width: 75px;
+        height: 75px;
+        flex-basis: 75px;
+    }
+
+    .Payement-inf h5 {
+        font-size: 15px;
+    }
+
+    .Payement-inf p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .Payement-inf span {
+        font-size: 13px;
+    }
+
+    .Payement-span span {
+        display: block;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .Checkout-form .row > .col-6 {
+        width: 100%;
+    }
+
+    .billing-details h2,
+    .Payement-heading {
+        font-size: 21px;
+    }
+
+    .billing-details span,
+    .billing-details-end span {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .Country-lable,
+    .FirstName-lable,
+    .LastName-lable,
+    .Companyname-lable,
+    .Order-Notes label {
+        font-size: 12px;
+    }
+
+    .Payement-subtotal,
+    .Payement-order {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .Credit-cards {
+        flex-wrap: wrap;
+    }
+
+    .Credit-cards img {
+        max-width: 150px;
+    }
+
+    .Place-Order {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   CART
+   ========================================================= */
+
+.cart-section {
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+
+    .cart-wrapper {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .cart-header {
+        grid-template-columns:
+            minmax(180px, 2fr)
+            repeat(4, minmax(70px, 1fr)) !important;
+
+        font-size: 12px;
+    }
+
+    .cart-item {
+        grid-template-columns:
+            minmax(180px, 2fr)
+            repeat(4, minmax(70px, 1fr)) !important;
+
+        gap: 8px;
+    }
+
+    .product-content {
+        min-width: 0;
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .product-name {
+        font-size: 14px;
+    }
+
+    .product-info {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .quantity-box {
+        min-width: 65px;
+    }
+
+    .cart-bottom {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .continue-shopping,
+    .checkout-btn {
+        max-width: 100%;
+    }
+
+    .paypal-box,
+    .summary-box,
+    .shipping-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .cart-header {
+        display: none !important;
+    }
+
+    .cart-item {
+        display: grid !important;
+        grid-template-columns: 1fr auto !important;
+        gap: 14px;
+        padding: 18px 0;
+    }
+
+    .item-details {
+        grid-column: 1 / -1;
+    }
+
+    .quantity-column,
+    .unit-price,
+    .sub-price,
+    .remove-column {
+        justify-self: start;
+    }
+
+    .quantity-column::before {
+        content: "Quantity";
+        display: block;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .unit-price::before {
+        content: "Unit Price";
+        display: block;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .sub-price::before {
+        content: "Subtotal";
+        display: block;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .remove-column::before {
+        content: "Remove";
+        display: block;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .item-details .product-content {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .product-image {
+        width: 85px;
+        height: 85px;
+        flex: 0 0 85px;
+    }
+
+    .cart-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .continue-shopping,
+    .checkout-btn {
+        width: 100%;
+    }
+
+    .paypal-box {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .cart-item {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .item-details {
+        grid-column: 1 / -1;
+    }
+
+    .quantity-column,
+    .unit-price,
+    .sub-price,
+    .remove-column {
+        font-size: 12px;
+    }
+
+    .product-name {
+        font-size: 13px;
+    }
+
+    .product-info {
+        font-size: 10px;
+    }
+
+    .quantity-box {
+        min-width: 60px;
+    }
+
+    .summary-row,
+    .summary-total {
+        gap: 10px;
+    }
+
+    .shipping-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* =========================================================
+   ACCOUNT
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Login {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
+    .Register-form {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .form-username,
+    .form-Password,
+    .First-name,
+    .Last-name,
+    .Email-address,
+    .Email-Password,
+    .Retype-Password {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .button-login,
+    .Register-form button {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    footer .row {
+        row-gap: 30px;
+    }
+
+    .contact-us,
+    .subscribe,
+    .Quick-link {
+        width: 100%;
+    }
+
+    .Quick-link .links {
+        flex-wrap: wrap;
+    }
+
+    .end .row {
+        row-gap: 12px;
+    }
+
+    .Reserved,
+    .payment {
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-us img {
+   
+    left: -3%;
+}
+}
+
+@media (max-width: 575.98px) {
+
+    footer {
+        text-align: center;
+    }
+
+    .enteryour-email {
+        width: 100%;
+    }
+
+    .social-icons2 {
+        justify-content: center;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .end {
+        padding: 15px 0;
+    }
+
+    .Reserved,
+    .payment {
+        font-size: 10px;
+    }
+}
+/* ================= CATALOGUE ================= */
+
+.catalogue .row {
+    align-items: stretch !important;
+}
+
+.catalogue-img {
+    width: 100%;
+    height: 100%;
+}
+
+.catalogue-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
