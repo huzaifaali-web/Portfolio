@@ -1,16 +1,6 @@
 /* =========================================================
    CREST & CLOVE - RESPONSIVE MASTER CSS
-   =========================================================
-   IMPORTANT:
-   1. style.css ko change mat karo.
-   2. Ye file style.css ke BAAD load honi chahiye.
-   3. Desktop / large laptop layout ko unnecessary override
-      nahi kiya gaya.
-   ========================================================= */
-
-
-/* =========================================================
-   GLOBAL
+   Mobile / Tablet fixes
    ========================================================= */
 
 * {
@@ -19,6 +9,8 @@
 
 html,
 body {
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -29,106 +21,154 @@ img {
 
 
 /* =========================================================
-   TOP STRIP
+   BOOTSTRAP ROW SAFETY
    ========================================================= */
 
-@media (max-width: 1199.98px) {
+@media (max-width: 767.98px) {
 
-    .section-top .container,
-    header .container {
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .container,
+    .container-fluid {
         max-width: 100%;
     }
 
-    .section-top .row,
-    header .row {
-        align-items: center;
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-    .contact-inf,
-    .free-shipping,
-    .wishlist-cart {
-        min-height: 42px;
-        display: flex;
-        align-items: center;
-    }
-
-    .free-shipping p {
-        text-align: center;
-        margin: 0;
-        font-size: 11px;
-    }
-
-    .contact-inf {
-        gap: 7px;
-        flex-wrap: wrap;
-        font-size: 11px;
-    }
-
-    .wishlist-cart {
-        justify-content: flex-end;
-        gap: 6px;
-        font-size: 11px;
-    }
-
-    header .logo img {
-        max-width: 125px;
-    }
-
-    .menue ul {
-        gap: 12px;
-    }
-
-    .menue ul a {
-        font-size: 12px;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 
 /* =========================================================
-   HEADER - TABLET
+   TOP STRIP
    ========================================================= */
 
 @media (max-width: 991.98px) {
 
     .section-top {
-        padding: 5px 0;
+        padding: 6px 0;
     }
 
-    .section-top .row > div,
-    header .row > div {
-        width: 100%;
+    .section-top .container {
+        max-width: 100%;
+    }
+
+    .section-top .row {
+        align-items: center;
     }
 
     .contact-inf,
     .free-shipping,
     .wishlist-cart {
-        justify-content: center;
         min-height: 30px;
+        display: flex;
+        align-items: center;
     }
 
     .contact-inf {
-        margin-bottom: 2px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .free-shipping {
+        justify-content: center;
     }
 
     .free-shipping p {
+        margin: 0;
+        text-align: center;
         line-height: 1.4;
     }
 
     .wishlist-cart {
-        padding-bottom: 4px;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .section-top {
+        padding: 5px 0;
     }
 
+    .section-top .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact-inf {
+        gap: 4px;
+    }
+
+    .contact-inf span {
+        font-size: 8px;
+    }
+
+    .contact-inf a {
+        font-size: 9px;
+    }
+
+    .contact-inf img {
+        max-width: 13px;
+    }
+
+    .drop-arrow {
+        margin-right: 2px;
+    }
+
+    .free-shipping p {
+        font-size: 8px;
+        line-height: 1.3;
+    }
+
+    .wishlist-cart {
+        gap: 3px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 6px;
+        margin: 0px;
+        margin-right: 3px;
+    }
+
+    .wishlist-cart img {
+        max-width: 13px;
+    }
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
     header {
-        padding: 12px 0;
+        padding: 10px 0;
+    }
+
+    header .container {
+        max-width: 100%;
     }
 
     header .logo {
         text-align: center;
-        margin-bottom: 12px;
     }
 
     header .logo img {
-        max-width: 145px;
+        max-width: 130px;
     }
 
     .menue {
@@ -136,63 +176,62 @@ img {
     }
 
     .menue ul {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px 18px;
         padding-left: 0;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px 15px;
     }
 
     .menue ul a {
+        margin: 0;
         font-size: 12px;
     }
 
     .cart {
-        justify-content: center;
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
-
-/* =========================================================
-   HEADER - MOBILE
-   ========================================================= */
-
 @media (max-width: 575.98px) {
 
-    .section-top .container,
-    header .container {
-        padding-left: 14px;
-        padding-right: 14px;
-    }
-
-    .contact-inf {
-        font-size: 10px;
-        gap: 5px;
-    }
-
-    .free-shipping p {
-        font-size: 9px;
-    }
-
-    .wishlist-cart {
-        font-size: 10px;
-    }
-
     header {
-        padding: 10px 0;
+        padding: 8px 0 12px;
+    }
+
+    header .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header .logo img {
+        max-width: 60px;
     }
 
     .menue ul {
-        gap: 7px 12px;
+        gap: 6px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .menue ul a {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .cart {
-        font-size: 11px;
+        font-size: 6px;
+        margin-left: 66px;
+        
     }
+
+    .cartshop {
+        margin: 0px;
+        padding: 3px;
+        max-width: 16px;
+        margin-left: 4px;
+    
 }
 
 
@@ -208,988 +247,389 @@ img {
 .banner img {
     width: 100%;
     display: block;
-    object-fit: cover;
 }
 
 @media (max-width: 767.98px) {
 
     .banner img {
-        min-height: 180px;
+        width: 100%;
+        min-height: 150px;
         object-fit: cover;
     }
 }
 
 
 /* =========================================================
-   GENERIC RESPONSIVE SECTIONS
+   WELCOME SECTION
    ========================================================= */
 
 @media (max-width: 991.98px) {
 
-    .container {
-        max-width: 94%;
+    .Welcome {
+        padding: 35px 25px;
     }
 
-    .shop-section,
-    .design-essential,
-    .catalogue,
-    .Our-Happy-Customers,
-    .Our-story,
-    .our-mission,
-    .our-vision,
-    .contact-details,
-    .form-sec,
-    .P-detail-section,
-    .product-details,
-    .cart-section,
-    .Checkout-form {
-        width: 100%;
+    .banner-mainheading p {
+        font-size: 32px;
+        letter-spacing: 8px;
     }
-}
 
-
-/* =========================================================
-   HOMEPAGE / CARDS
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .shop-section .row,
-    .our-shop .row {
-        row-gap: 25px;
-    }
-
-    .card1,
-    .shop-card1 {
-        margin-bottom: 20px;
-    }
-
-    .design-essential,
-    .catalogue {
-        flex-wrap: wrap;
-    }
-
-    .design-meets,
-    .design-inf,
-    .essential-chefs,
-    .catalogue-inf,
-    .catalogue-img {
-        width: 100%;
-    }
-
-    .essential-chefs img,
-    .catalogue-img img {
-        width: 100%;
-        display: block;
-    }
-
-    .Our-Happy-Customers .our-customer {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .reviews-sec {
-        width: 100%;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    .Shop-collection h2,
-    .crest-clove-inf h2,
-    .section-heading,
-    .About-us h2 {
-        font-size: 24px;
-        line-height: 1.25;
-    }
-
-    .card1 h3,
-    .shop-card1 h3 {
-        font-size: 17px;
-    }
-
-    .card1,
-    .shop-card1 {
-        width: 100%;
-    }
-
-    .our-customer {
-        display: block !important;
-    }
-
-    .reviews-sec {
-        margin-bottom: 20px;
-    }
-}
-
-
-/* =========================================================
-   ABOUT PAGE
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .Our-story,
-    .our-mission,
-    .our-vision {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .abount-img,
-    .ourstory-inf,
-    .ourstory-paragraph,
-    .our-mission-img,
-    .our-vision-img,
-    .our-vision-text {
-        width: 100%;
-    }
-
-    .abount-img img,
-    .our-mission-img img,
-    .our-vision-img img {
-        max-width: 100%;
-        display: block;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    .Aboutus {
-        min-height: 100px;
-    }
-
-    .About-us h2 {
-        font-size: 22px;
-    }
-}
-
-
-/* =========================================================
-   SHOP / COLLECTION
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .categories,
-    .price-range,
-    .Lorem-ipsum {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
-    .collection .row,
-    .shop .row,
-    .shop-section2 .row {
-        row-gap: 25px;
-    }
-}
-
-
-/* =========================================================
-   JOURNAL
-   =========================================================
-   IMPORTANT:
-   Desktop / laptop 992px+ is NOT modified here.
-
-   Original style.css has:
-       .journal-img-1 {
-           position: absolute;
-       }
-
-   That is the reason images disappear / overlap when
-   Bootstrap columns stack.
-
-   Below we only fix <= 991.98px.
-   ========================================================= */
-
-
-/* ---------- TABLET / SMALL LAPTOP ---------- */
-
-@media (max-width: 991.98px) {
-
-    .Cooking-recipes {
-        width: 100%;
-        padding-top: 45px !important;
-        padding-bottom: 45px !important;
-    }
-
-
-    /* Bootstrap columns become full width */
-
-    .Cooking-recipes .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .Cooking-recipes .row > .col-12 {
-        width: 100%;
-        flex: 0 0 100%;
-    }
-
-
-    /* -----------------------------------------
-       FIRST & THIRD IMAGES
-       ----------------------------------------- */
-
-    .Cooking-recipes .journal-img-1 {
-        position: static !important;
-
-        display: block !important;
-
-        width: 100% !important;
-        max-width: 100% !important;
-
-        height: auto !important;
-
-        margin: 0 !important;
-        padding: 0 !important;
-
-        top: auto !important;
-        right: auto !important;
-        bottom: auto !important;
-        left: auto !important;
-
-        transform: none !important;
-
-        object-fit: cover !important;
-    }
-
-
-    /* -----------------------------------------
-       SECOND IMAGE
-       ----------------------------------------- */
-
-    .Cooking-recipes .Recipe-bakery {
-        position: relative !important;
-
-        width: 100% !important;
-        height: auto !important;
-
-        margin: 0 !important;
-
-        top: auto !important;
-        right: auto !important;
-        bottom: auto !important;
-        left: auto !important;
-
-        overflow: visible !important;
-    }
-
-    .Cooking-recipes .Recipe-bakery img {
-        position: static !important;
-
-        display: block !important;
-
-        width: 100% !important;
-        max-width: 100% !important;
-
-        height: auto !important;
-
-        margin: 0 !important;
-        padding: 0 !important;
-
-        top: auto !important;
-        right: auto !important;
-        bottom: auto !important;
-        left: auto !important;
-
-        transform: none !important;
-
-        object-fit: cover !important;
-    }
-
-
-    /* -----------------------------------------
-       TEXT BOX
-       ----------------------------------------- */
-
-    .Cooking-recipes .cooking-tehniques-inf {
-        width: 100% !important;
-        max-width: 100% !important;
-
-        height: auto !important;
-
-        box-sizing: border-box;
-
-        margin-top: 25px !important;
-    }
-
-
-    /* -----------------------------------------
-       JOURNAL SHAPES
-       ----------------------------------------- */
-
-    .Cooking-recipes .journal-shape1 {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .Cooking-recipes .journal-shape1 img {
-        width: auto;
-        max-width: 20px;
-        height: auto;
-
-        display: inline-block;
-
-        margin-right: 10px;
-    }
-}
-
-
-/* =========================================================
-   JOURNAL - MOBILE
-   ========================================================= */
-
-@media (max-width: 767.98px) {
-
-    .Cooking-recipes {
-        padding-top: 30px !important;
-        padding-bottom: 30px !important;
-    }
-
-
-    /* Images */
-
-    .Cooking-recipes .journal-img-1,
-    .Cooking-recipes .Recipe-bakery img {
-        width: 100% !important;
-        max-width: 100% !important;
-        height: auto !important;
-
-        display: block !important;
-    }
-
-
-    /* Text */
-
-    .Cooking-recipes .cooking-tehniques-inf {
-        margin-top: 18px !important;
-
-        padding: 28px 18px !important;
-    }
-
-
-    /* Heading */
-
-    .Cooking-recipes .cooking-tehniques-inf h2,
-    .Cooking-recipes .cooking-tehniques-inf h3 {
-        font-size: 23px !important;
-        line-height: 1.3 !important;
-
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
-
-
-    /* Paragraph */
-
-    .Cooking-recipes .cooking-tehniques-inf p {
-        font-size: 12px !important;
-        line-height: 1.7 !important;
-
-        margin-bottom: 18px;
-    }
-
-
-    /* Shapes */
-
-    .Cooking-recipes .journal-shape1 {
-        display: flex !important;
-        align-items: center !important;
-
-        gap: 5px !important;
-
-        font-size: 13px !important;
-        line-height: 1.5 !important;
-    }
-
-    .Cooking-recipes .journal-shape1 img {
-        width: auto !important;
-        max-width: 20px !important;
-        height: auto !important;
-
-        margin-right: 5px !important;
-    }
-}
-
-
-/* =========================================================
-   JOURNAL - SMALL MOBILE
-   ========================================================= */
-
-@media (max-width: 575.98px) {
-
-    .Cooking-recipes {
-        padding-top: 25px !important;
-        padding-bottom: 25px !important;
-    }
-
-
-    .Cooking-recipes .cooking-tehniques-inf {
-        margin-top: 15px !important;
-
-        padding: 22px 14px !important;
-    }
-
-
-    .Cooking-recipes .cooking-tehniques-inf h2,
-    .Cooking-recipes .cooking-tehniques-inf h3 {
-        font-size: 20px !important;
-        line-height: 1.3 !important;
-    }
-
-
-    .Cooking-recipes .cooking-tehniques-inf p {
-        font-size: 12px !important;
-        line-height: 1.65 !important;
-    }
-
-
-    .Cooking-recipes .journal-shape1 {
-        font-size: 12px !important;
-    }
-
-
-    .Cooking-recipes .journal-shape1 img {
-        max-width: 18px !important;
-    }
-}
-
-
-/* =========================================================
-   CONTACT
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .contact-details {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .contact-detail-inf,
-    .location,
-    .question,
-    .form-sec {
-        width: 100%;
-    }
-
-    form .row {
-        row-gap: 10px;
-    }
-}
-
-
-/* =========================================================
-   PRODUCT DETAILS
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .product-details,
-    .P-detail-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .product-image-box,
-    .product-content,
-    .P-detail-img,
-    .P-detail-inf,
-    .lorem-inf {
-        width: 100%;
-    }
-
-    .product-image-box img,
-    .P-detail-img img {
-        max-width: 100%;
-        display: block;
-    }
-
-    .P-detail-img-mini {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    .quantity,
-    .cart-area {
-        flex-wrap: wrap;
-    }
-
-    .add-cart,
-    .wishlist,
-    .buynow,
-    .basket {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
-
-
-/* =========================================================
-   CHECKOUT
-   ========================================================= */
-
-.Checkout-form {
-    padding-top: 50px;
-    padding-bottom: 60px;
-}
-
-@media (max-width: 991.98px) {
-
-    .Checkout-form > .container > .row {
-        row-gap: 35px;
-    }
-
-    .Checkout-form > .container > .row > [class*="col-"] {
-        width: 100%;
-    }
-
-    .billing-details {
-        margin-bottom: 20px;
-    }
-
-    .Payement-heading {
-        margin-top: 0;
-    }
-
-    .Payement-details {
-        width: 100%;
-    }
-
-    .Payement-img {
-        align-items: center;
-        gap: 15px;
-    }
-
-    .Payement-img img {
-        width: 90px;
-        height: 90px;
-        object-fit: cover;
-        flex: 0 0 90px;
-    }
-
-    .Payement-inf {
-        min-width: 0;
-    }
-
-    .Credit-cards {
-        align-items: center;
-        justify-content: space-between;
-        gap: 15px;
-    }
-
-    .Credit-cards img {
-        max-width: 180px;
-    }
-}
-
-@media (max-width: 767.98px) {
-
-    .Checkout-form {
-        padding-top: 30px;
-        padding-bottom: 40px;
-    }
-
-    .Checkout-form .row > [class*="col-"] {
-        width: 100%;
-    }
-
-    .Checkout-form .row > .col-6 {
-        width: 50%;
-    }
-
-    .Country-form,
-    .FirstName-form,
-    .LastName-form,
-    .Companyname-form {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .Order-Notes textarea {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .Payement-img {
-        align-items: flex-start;
-    }
-
-    .Payement-img img {
-        width: 75px;
-        height: 75px;
-        flex-basis: 75px;
-    }
-
-    .Payement-inf h5 {
-        font-size: 15px;
-    }
-
-    .Payement-inf p {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .Payement-inf span {
-        font-size: 13px;
-    }
-
-    .Payement-span span {
-        display: block;
-        line-height: 1.6;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    .Checkout-form .row > .col-6 {
-        width: 100%;
-    }
-
-    .billing-details h2,
-    .Payement-heading {
-        font-size: 21px;
-    }
-
-    .billing-details span,
-    .billing-details-end span {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .Country-lable,
-    .FirstName-lable,
-    .LastName-lable,
-    .Companyname-lable,
-    .Order-Notes label {
-        font-size: 12px;
-    }
-
-    .Payement-subtotal,
-    .Payement-order {
-        justify-content: space-between;
-        gap: 15px;
-    }
-
-    .Credit-cards {
-        flex-wrap: wrap;
-    }
-
-    .Credit-cards img {
-        max-width: 150px;
-    }
-
-    .Place-Order {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
-/* =========================================================
-   CART
-   ========================================================= */
-
-.cart-section {
-    width: 100%;
-}
-
-@media (max-width: 991.98px) {
-
-    .cart-wrapper {
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .cart-header {
-        grid-template-columns:
-            minmax(180px, 2fr)
-            repeat(4, minmax(70px, 1fr)) !important;
-
-        font-size: 12px;
-    }
-
-    .cart-item {
-        grid-template-columns:
-            minmax(180px, 2fr)
-            repeat(4, minmax(70px, 1fr)) !important;
-
-        gap: 8px;
-    }
-
-    .product-content {
-        min-width: 0;
-    }
-
-    .product-image {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-    }
-
-    .product-name {
-        font-size: 14px;
-    }
-
-    .product-info {
-        font-size: 11px;
-        line-height: 1.4;
-    }
-
-    .quantity-box {
-        min-width: 65px;
-    }
-
-    .cart-bottom {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    .continue-shopping,
-    .checkout-btn {
-        max-width: 100%;
-    }
-
-    .paypal-box,
-    .summary-box,
-    .shipping-box {
-        width: 100%;
-    }
-}
-
-@media (max-width: 767.98px) {
-
-    .cart-header {
-        display: none !important;
-    }
-
-    .cart-item {
-        display: grid !important;
-        grid-template-columns: 1fr auto !important;
-        gap: 14px;
-        padding: 18px 0;
-    }
-
-    .item-details {
-        grid-column: 1 / -1;
-    }
-
-    .quantity-column,
-    .unit-price,
-    .sub-price,
-    .remove-column {
-        justify-self: start;
-    }
-
-    .quantity-column::before {
-        content: "Quantity";
-        display: block;
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
-
-    .unit-price::before {
-        content: "Unit Price";
-        display: block;
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
-
-    .sub-price::before {
-        content: "Subtotal";
-        display: block;
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
-
-    .remove-column::before {
-        content: "Remove";
-        display: block;
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
-
-    .item-details .product-content {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .product-image {
-        width: 85px;
-        height: 85px;
-        flex: 0 0 85px;
-    }
-
-    .cart-bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .continue-shopping,
-    .checkout-btn {
-        width: 100%;
+    .banner-mainheading h1 {
+        font-size: 45px;
+        letter-spacing: 4px;
     }
 
-    .paypal-box {
+    .banner-inf {
         margin-top: 20px;
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
 
-    .cart-item {
-        grid-template-columns: 1fr 1fr !important;
+    .Welcome {
+        padding: 30px 20px;
     }
 
-    .item-details {
-        grid-column: 1 / -1;
+    .banner-mainheading p {
+        font-size: 24px;
+        letter-spacing: 5px;
+        margin-bottom: 8px;
     }
 
-    .quantity-column,
-    .unit-price,
-    .sub-price,
-    .remove-column {
+    .banner-mainheading h1 {
+        font-size: 34px;
+        letter-spacing: 2px;
+        line-height: 1.15;
+        margin-bottom: 20px;
+    }
+
+    .banner-inf p {
         font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 15px;
     }
 
-    .product-name {
-        font-size: 13px;
-    }
-
-    .product-info {
-        font-size: 10px;
-    }
-
-    .quantity-box {
-        min-width: 60px;
-    }
-
-    .summary-row,
-    .summary-total {
-        gap: 10px;
-    }
-
-    .shipping-box {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-
-/* =========================================================
-   ACCOUNT
-   ========================================================= */
-
-@media (max-width: 991.98px) {
-
-    .Login {
+    .social-icons {
         display: flex;
         flex-wrap: wrap;
+        gap: 7px;
+        margin-top: 10px;
     }
 
-    .login-form,
-    .Register-form {
-        width: 100%;
-    }
-
-    .Register-form {
-        margin-top: 35px;
+    .facebook,
+    .twitter,
+    .insta,
+    .linkedin {
+        margin: 0;
+        padding: 6px 11px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 575.98px) {
 
-    .form-username,
-    .form-Password,
-    .First-name,
-    .Last-name,
-    .Email-address,
-    .Email-Password,
-    .Retype-Password {
-        width: 100%;
-        max-width: 100%;
+    .Welcome {
+        padding: 25px 15px;
     }
 
-    .button-login,
-    .Register-form button {
-        width: 100%;
+    .banner-mainheading p {
+        font-size: 18px;
+        letter-spacing: 3px;
+        line-height: 1.3;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 27px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .banner-inf p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        gap: 5px;
+    }
+
+    .facebook,
+    .twitter,
+    .insta,
+    .linkedin {
+        padding: 5px 5px;
+        font-size: 12px;
+        padding-right: 16px;
     }
 }
 
 
 /* =========================================================
-   FOOTER
+   SHOP COLLECTION
    ========================================================= */
 
 @media (max-width: 991.98px) {
 
-    footer .row {
-        row-gap: 30px;
+    .shop-section {
+        padding-top: 40px;
     }
 
-    .contact-us,
-    .subscribe,
-    .Quick-link {
+    .shop-section .row {
+        row-gap: 20px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .arrows {
+        text-align: right;
+    }
+
+    .card1,
+    .shop-card1 {
+        margin-bottom: 20px;
+    }
+
+    .card1 img {
         width: 100%;
     }
-
-    .Quick-link .links {
-        flex-wrap: wrap;
-    }
-
-    .end .row {
-        row-gap: 12px;
-    }
-
-    .Reserved,
-    .payment {
-        text-align: center;
-        justify-content: center;
-    }
-    .contact-us img {
-   
-    left: -3%;
-}
 }
 
 @media (max-width: 575.98px) {
 
-    footer {
-        text-align: center;
+    .shop-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
-    .enteryour-email {
-        width: 100%;
+    .Shop-collection h2 {
+        font-size: 20px;
+        line-height: 1.3;
     }
 
-    .social-icons2 {
-        justify-content: center;
+    .arrows {
+        white-space: nowrap;
     }
 
-    .links {
-        justify-content: center;
+    .left-arrow,
+    .right-arrow {
+        padding: 7px 14px;
+        margin-right: 4px;
+        font-size: 11px;
     }
 
-    .end {
-        padding: 15px 0;
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 17px;
     }
 
-    .Reserved,
-    .payment {
-        font-size: 10px;
+    .card1 a,
+    .card3-inf a {
+        font-size: 11px;
+        padding: 6px 20px;
     }
 }
-/* ================= CATALOGUE ================= */
+
+
+/* =========================================================
+   DESIGN ESSENTIAL
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .design-essential {
+        padding: 40px 25px;
+    }
+
+    .design-meets {
+        padding-right: 0;
+    }
+
+    .essential-chefs img {
+        width: 100%;
+        height: auto;
+    }
+
+    .design-inf {
+        padding: 25px 0;
+    }
+
+    .design-inf h3 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .design-essential {
+        padding: 30px 15px;
+    }
+
+    .design-inf {
+        padding: 20px 0 30px;
+    }
+
+    .design-inf h3 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    .design-inf p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .design-inf a {
+        font-size: 11px;
+        padding: 7px 22px;
+    }
+}
+
+
+/* =========================================================
+   CREST & CLOVE BIG IMAGE SECTION
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .crestclove {
+        height: 65vh;
+        min-height: 450px;
+        background-position: center;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 55px;
+        letter-spacing: 3px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .crestclove {
+        height: 55vh;
+        min-height: 350px;
+        background-position: center;
+        align-items: flex-end;
+    }
+
+    .crest-clove-inf {
+        padding-bottom: 20px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 38px;
+        letter-spacing: 2px;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .crest-clove-inf a {
+        font-size: 11px;
+        padding: 7px 22px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .crestclove {
+        height: 48vh;
+        min-height: 300px;
+        background-position: center;
+    }
+
+    .crest-clove-inf {
+        padding-bottom: 15px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 27px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    .crest-clove-inf a {
+        font-size: 10px;
+        padding: 6px 18px;
+    }
+}
+
+
+/* =========================================================
+   OUR SHOP
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .our-shop {
+        padding: 35px 0;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 34px;
+    }
+
+    .ourshop-inf p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .shop-card1 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .ourshop-inf h3 {
+        font-size: 27px;
+    }
+
+    .ourshop-inf p {
+        font-size: 11px;
+    }
+
+    .shop-card1 img {
+        height: auto;
+    }
+
+    .shop-card1-inf {
+        padding: 10px 14px;
+    }
+
+    .shop-card1-inf h4 {
+        font-size: 16px;
+    }
+
+    .shop-card1-inf p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .shop-card1-price {
+        padding: 9px 14px;
+    }
+
+    .shop-card1-price span {
+        font-size: 18px;
+    }
+
+    .shop-card1-price a {
+        font-size: 11px;
+        padding-left: 15px;
+    }
+}
+
+
+/* =========================================================
+   CATALOGUE
+   ========================================================= */
 
 .catalogue .row {
     align-items: stretch !important;
@@ -1205,4 +645,1064 @@ img {
     height: 100%;
     display: block;
     object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+
+    .catalogue-inf {
+        padding: 60px 35px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 38px;
+        line-height: 1.15;
+    }
+
+    .catalogue-inf p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .catalogue-img {
+        height: auto;
+    }
+
+    .catalogue-img img {
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .catalogue-inf {
+        padding: 40px 20px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 25px;
+        line-height: 1.25;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    .catalogue-inf p {
+        font-size: 11px;
+        line-height: 1.65;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .catalogue-inf a {
+        font-size: 10px;
+        padding: 7px 22px;
+    }
+
+    .catalogue-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+
+/* =========================================================
+   HAPPY CUSTOMERS
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Our-Happy-Customers {
+        padding: 45px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .our-customer p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .Ann-peterson {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .viewall {
+        height: 250px;
+        justify-content: center;
+    }
+
+    .viewall a {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .Our-Happy-Customers {
+        padding: 35px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 25px;
+    }
+
+    .our-customer p {
+        font-size: 11px;
+    }
+
+    .Ann-peterson {
+        padding: 20px 15px;
+    }
+
+    .Ann-peterson h4 {
+        font-size: 19px;
+    }
+
+    .Ann-peterson p {
+        font-size: 11px;
+        line-height: 1.6;
+        padding-top: 15px;
+    }
+
+    .viewall {
+        height: 150px;
+    }
+
+    .review {
+        padding: 6px 15px;
+    }
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    footer {
+        padding: 40px 30px;
+    }
+
+    footer .row {
+        row-gap: 35px;
+    }
+
+    .contact-us,
+    .subscribe,
+    .Quick-link {
+        width: 100%;
+    }
+
+    .contact-us img,
+    .mail img,
+    .phone img {
+        position: static;
+        margin-right: 7px;
+    }
+
+    .mail,
+    .phone {
+        margin-bottom: 15px;
+    }
+
+    .enteryour-email input {
+        max-width: 100%;
+    }
+
+    .subscribe a {
+        display: inline-block;
+        padding: 11px 60px;
+    }
+
+    .arrow {
+        right: calc(50% - 80px);
+    }
+
+    .links {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .links li {
+        margin-left: 0;
+    }
+
+    .payment {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    footer {
+        padding: 35px 15px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .contact-us img,
+    .mail img,
+    .phone img {
+        max-width: 16px;
+    }
+
+    .enteryour-email input {
+        width: 100%;
+        padding: 10px 12px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .subscribe a {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+
+    .arrow {
+        right: 18px;
+        bottom: 18%;
+        max-width: 15px;
+    }
+
+    .social-icon {
+        margin-top: 20px;
+    }
+
+    .facebook2,
+    .twitter2,
+    .insta2,
+    .linkedin2 {
+        
+        margin-right: 3px;
+        font-size: 12px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+
+    .Quick-link h4 {
+        margin-bottom: 20px;
+    }
+
+    .links {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .links li {
+        margin-left: 0;
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .end {
+        padding: 12px 0;
+    }
+
+    .Reserved p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .payment {
+        justify-content: center;
+    }
+
+    .payment img {
+        max-width: 180px;
+    }
+}
+
+
+/* =========================================================
+   ABOUT US
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Aboutus {
+        padding: 25px 0;
+    }
+
+    .About-us h2 {
+        font-size: 42px;
+    }
+
+    .Our-story {
+        padding: 45px 0;
+    }
+
+    .ourstory-inf {
+        margin-left: 0;
+        padding: 50px 30px;
+    }
+
+    .ourstory-inf h2 {
+        font-size: 38px;
+    }
+
+    .our-mission {
+        padding-left: 0;
+    }
+
+    .our-mission-img,
+    .our-vision-img {
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    .our-vision-text {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .About-us h2 {
+        font-size: 25px;
+    }
+
+    .ourstory-inf {
+        padding: 30px 20px;
+    }
+
+    .ourstory-inf h2 {
+        font-size: 27px;
+    }
+
+    .ourstory-paragraph {
+        padding: 25px 0;
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .our-mission h3,
+    .our-vision-text h3 {
+        font-size: 24px;
+    }
+
+    .our-mission p,
+    .our-vision-text p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+}
+
+
+/* =========================================================
+   SHOP / COLLECTION
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .shop {
+        padding: 40px 0;
+    }
+
+    .categories h4 {
+        font-size: 30px;
+    }
+
+    .price-range h4 {
+        font-size: 27px;
+    }
+
+    .collection h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .categories h4 {
+        font-size: 25px;
+    }
+
+    .collection h2 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    .design-essential2 {
+        padding: 35px 15px;
+    }
+}
+
+
+/* =========================================================
+   JOURNAL
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Cooking-recipes {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+
+    .Cooking-recipes .journal-img-1 {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .Cooking-recipes .Recipe-bakery {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .Cooking-recipes .Recipe-bakery img {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .Cooking-recipes .cooking-tehniques-inf {
+        width: 100% !important;
+        margin-top: 25px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .Cooking-recipes {
+        padding: 25px 0 !important;
+    }
+
+    .Cooking-recipes .cooking-tehniques-inf {
+        padding: 22px 14px !important;
+        margin-top: 15px !important;
+    }
+
+    .Cooking-recipes .cooking-tehniques-inf h2,
+    .Cooking-recipes .cooking-tehniques-inf h3 {
+        font-size: 20px !important;
+        line-height: 1.3 !important;
+    }
+
+    .Cooking-recipes .cooking-tehniques-inf p {
+        font-size: 12px !important;
+        line-height: 1.65 !important;
+    }
+
+    .Cooking-recipes .journal-shape1 {
+        font-size: 12px !important;
+    }
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .contact-details {
+        padding: 45px 0;
+    }
+
+    .location {
+        margin-bottom: 20px;
+    }
+
+    form .row {
+        row-gap: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .contact-detail-inf h3,
+    .question h3 {
+        font-size: 23px;
+    }
+
+    .contact-detail-inf p,
+    .question p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+}
+
+
+/* =========================================================
+   PRODUCT DETAILS
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .product-details {
+        padding: 40px 0;
+    }
+
+    .product-content {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .P-detail-img img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .lorem-inf p {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .details-header {
+        height: 100px;
+    }
+
+    .details-header h1 {
+        font-size: 28px;
+    }
+
+    .product-details {
+        padding: 30px 0;
+    }
+
+    .product-content h2 {
+        font-size: 21px;
+    }
+
+    .cart-area {
+        flex-wrap: wrap;
+    }
+
+    .add-cart,
+    .wishlist,
+    .buynow,
+    .basket {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* =========================================================
+   CHECKOUT
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Checkout-form {
+        padding: 40px 0;
+    }
+
+    .Country-form,
+    .FirstName-form,
+    .LastName-form,
+    .Companyname-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Payement-details,
+    .Bank-inf,
+    .Credit-cards,
+    .Payement-subtotal,
+    .Payement-order,
+    .Payement-span {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .billing-details h2,
+    .Payement-heading {
+        font-size: 23px;
+    }
+
+    .Country-lable,
+    .FirstName-lable,
+    .LastName-lable,
+    .Companyname-lable {
+        font-size: 12px;
+    }
+
+    .Credit-cards img {
+        max-width: 130px;
+        margin-left: 5px;
+    }
+
+    .Place-Order {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   CART
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .cart-section {
+        padding: 45px 0;
+    }
+
+    .cart-wrapper {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .cart-bottom {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .cart-header {
+        display: none !important;
+    }
+
+    .cart-item {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 15px;
+        padding: 18px 0;
+    }
+
+    .item-details {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    .quantity-column,
+    .unit-price,
+    .sub-price,
+    .remove-column {
+        width: 100%;
+    }
+
+    .cart-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .continue-shopping,
+    .checkout-btn {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   ACCOUNT
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .Login {
+        padding: 45px 0;
+    }
+
+    .login-form,
+    .Register-form {
+        width: 100%;
+    }
+
+    .form-Username,
+    .form-Password,
+    .First-name,
+    .Last-name,
+    .Email-address,
+    .Email-Password,
+    .Retype-Password,
+    .button-login,
+    .Register-form button {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .login-form,
+    .Register-form {
+        padding: 25px 15px;
+    }
+
+    .login-form h4,
+    .Register-form h4 {
+        font-size: 23px;
+    }
+
+    .form-username,
+    .form-password,
+    .checkbox {
+        margin-left: 0;
+    }
+
+    .form-Username,
+    .form-Password,
+    .First-name,
+    .Last-name,
+    .Email-address,
+    .Email-Password,
+    .Retype-Password,
+    .button-login,
+    .Register-form button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* =========================================================
+   FINAL 360px FIX
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    /* GLOBAL */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* TOP */
+
+    .section-top .container {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .contact-inf span {
+        font-size: 7px;
+    }
+
+    .contact-inf a {
+        font-size: 8px;
+    }
+
+    .free-shipping p {
+        font-size: 7px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 6px;
+        margin: 0px;
+        margin-right: 5px;
+    }
+
+    /* HEADER */
+
+    header .container {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    header .logo img {
+        max-width: 50px;
+    }
+
+    .menue ul {
+        gap: 5px 8px;
+    }
+
+    .menue ul a {
+         
+        font-size: 6px;
+    
+    }
+
+    .cart {
+        font-size: 5px;
+    }
+
+    .cartshop {
+        max-width: 12px;
+        padding: 2px;
+    }
+
+    /* WELCOME */
+
+    .Welcome {
+        padding: 22px 12px;
+    }
+
+    .banner-mainheading p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    .banner-inf p {
+        font-size: 10px;
+    }
+
+    /* COLLECTION */
+
+    .Shop-collection h2 {
+        font-size: 18px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        padding: 6px 11px;
+        font-size: 9px;
+    }
+
+    /* DESIGN */
+
+    .design-inf h3 {
+        font-size: 19px;
+    }
+
+    .design-inf p {
+        font-size: 11px;
+    }
+
+    /* CREST CLOVE */
+
+    .crestclove {
+        min-height: 270px;
+        height: 43vh;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 23px;
+        letter-spacing: 0;
+    }
+
+    /* OUR SHOP */
+
+    .ourshop-inf h3 {
+        font-size: 24px;
+    }
+
+    /* CATALOGUE */
+
+    .catalogue-inf {
+        padding: 32px 15px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 22px;
+        letter-spacing: 0;
+        line-height: 1.25;
+    }
+
+    .catalogue-inf p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    /* CUSTOMERS */
+
+    .our-customer h3 {
+        font-size: 22px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 30px 12px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 19px;
+    }
+
+    .enteryour-email input {
+        width: 100%;
+        padding: 9px 10px;
+    }
+
+    .subscribe a {
+        width: 100%;
+        padding: 9px 10px;
+    }
+
+    .arrow {
+        right: 12px;
+    }
+
+    .links li {
+        font-size: 11px;
+    }
+}
+/* =========================================================
+   SHOP PAGE - PRICE RANGE MOBILE FIX
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    /* Har shop row ko proper vertical flow do */
+    .shop > .container > .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+
+        position: relative !important;
+        clear: both !important;
+    }
+
+    /* First row ke baad proper space */
+    .shop > .container > .row + .row {
+        margin-top: 35px !important;
+    }
+
+    /* Category / Price Range column */
+    .shop > .container > .row > .col-12:first-child {
+        position: relative !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+
+        float: none !important;
+        clear: both !important;
+
+        width: 100% !important;
+        margin: 0 0 25px 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* Price Range specifically */
+    .price-range {
+        position: static !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+
+        width: 100% !important;
+
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+        margin-left: 0 !important;
+
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+        transform: none !important;
+    }
+
+    .price-range h4 {
+        position: static !important;
+
+        margin-top: 0 !important;
+        margin-bottom: 18px !important;
+
+        padding: 0 !important;
+
+        font-size: 25px !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Price checkboxes */
+    .price-range + .Lorem-ipsum,
+    .price-range ~ .Lorem-ipsum {
+        position: static !important;
+        margin-top: 0 !important;
+    }
+
+    /* Product columns */
+    .shop-product-col {
+        position: relative !important;
+
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+
+        float: none !important;
+
+        margin-top: 0 !important;
+        margin-bottom: 30px !important;
+
+        transform: none !important;
+    }
+}
+
+
+/* =========================================================
+   360px EXTRA FIX
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .shop {
+        padding-top: 30px !important;
+    }
+
+    /* First row ke products ke baad Price Range */
+    .shop > .container > .row + .row {
+        margin-top: 25px !important;
+        padding-top: 10px !important;
+    }
+
+    .price-range {
+        margin-bottom: 15px !important;
+    }
+
+    .price-range h4 {
+        font-size: 22px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .shop .Lorem-ipsum {
+        margin-bottom: 9px !important;
+    }
+
+    .shop .Lorem-ipsum input {
+        margin-right: 5px;
+    }
+
+    .shop-product-col {
+        margin-bottom: 25px !important;
+    }
 }

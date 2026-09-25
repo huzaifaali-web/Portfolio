@@ -1138,7 +1138,53 @@ textarea {
     background: var(--primary);
     color: #04111e;
 }
+/* =========================
+   CV BUTTON
+========================= */
 
+.cv-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 13px 23px;
+
+    border: 1px solid var(--border);
+    border-radius: 8px;
+
+    background: transparent;
+    color: var(--white);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.cv-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+
+    transform: translateY(-3px);
+}
+
+.cv-btn i {
+    font-size: 14px;
+}
+
+
+/* =========================
+   CV BUTTON MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .cv-btn {
+        width: 100%;
+    }
+
+}
 
 /* =========================
    ANIMATIONS

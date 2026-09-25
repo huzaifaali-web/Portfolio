@@ -3700,3 +3700,81 @@ img {
     }
 
 }
+```css
+/* =========================
+   ABOUT SECTION RESPONSIVE FIX
+========================= */
+
+.Parent-3 .cont4 {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.Parent-3 .cont4 p {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin-bottom: 30px;
+}
+
+.Parent-3 .about-btn {
+    position: static !important;
+    display: inline-flex !important;
+    width: auto;
+    height: auto !important;
+    margin: 0 !important;
+}
+
+
+/* Large screens */
+@media (min-width: 1200px) {
+
+    .Parent-3 .cont4 {
+        padding: 30px 40px;
+    }
+
+    .Parent-3 .cont4 p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .Parent-3 .cont4 {
+        padding: 20px;
+    }
+
+    .Parent-3 .cont4 p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .Parent-3 .cont4 {
+        padding: 20px 10px;
+    }
+
+    .Parent-3 .cont4 p {
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .Parent-3 .about-btn {
+        display: inline-flex !important;
+        width: auto;
+    }
+
+}
