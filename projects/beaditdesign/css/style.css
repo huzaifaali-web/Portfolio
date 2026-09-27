@@ -58,7 +58,6 @@ header{
 .Nav ul{
     display: flex;
     justify-content: space-between;
-    list-style: none;
 }
 .Nav ul a{
     text-decoration: none;
@@ -101,7 +100,7 @@ header{
     background-size: cover;
     width: 100%;
     color: white;
-    padding: 40px 0;
+    padding: 40px;
 
 }
 .cont2{
@@ -248,32 +247,16 @@ header{
     font-family: "Saudagar",sans-serif;
     padding-bottom: 8px;
 }
-.cont4 p {
+.cont4 p{
     font-family: "roboto",sans-serif;
     font-weight: 200;
     padding-bottom: 30px;
-    
 }
-.about-btn{
-    
-    font-weight: 200;
-    padding-bottom: 30px;
-    text-decoration: none;
-    color: white;
+.cont4 span{
     border: 1px solid white;
     font-family: "Saudagar",sans-serif;
     border-radius: 20px;
     padding: 8px 30px;
-
-}
-.cont4 span a{
-    border: 1px solid white;
-    font-family: "Saudagar",sans-serif;
-    border-radius: 20px;
-    padding: 8px 30px;
-    text-decoration: none;
-    color: white    ;
-
    
 }
 
@@ -318,6 +301,8 @@ header{
 }
 .content6 h5{
     font-size: 25px;
+     font-family: "Saudagar",sans-serif;
+
    
 }
 .content6 span{
@@ -428,8 +413,7 @@ color: #90666c;
     padding: 0px !important;
 }
 .Parent7{
-    background-image:url("../images/background.png");
-
+    background-image:url(../Images/background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 0px 20px;
@@ -497,9 +481,11 @@ color: #90666c;
     columns: 2;
 
 }
-.links ul{
-    list-style: none;
-    padding: 0;
+.quick-links a{
+
+    text-decoration: none;
+    color: white;
+
 }
 .links li a{
     color: white;
@@ -1122,7 +1108,7 @@ font-weight: 500;
     border: 2px solid #e0dcdc;
     border-radius: 7px;
 }
-.button-login button{
+.button-login{
     width: 500px;
     padding: 12px;
     font-weight: 400;
@@ -1134,23 +1120,21 @@ font-weight: 500;
      margin-top: 15px;
      border-radius: 8px;
      font-family: "Roboto",sans-serif;
-     text-decoration: none;
+}
+.button-login a{
+    text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
-
 .checkbox{
     margin-left: 20px;
     margin-top: 30px;
 }
-.checkbox a span {
- 
+.checkbox span{
+ margin-right: 160px;
  font-size: 12px;
  font-weight: 100;
  width: 100%;
- color: black;
-text-decoration: none;
-
 }
 .Register-form{
     border: 2px solid #91666d;

@@ -1706,3 +1706,1966 @@ img {
         margin-bottom: 25px !important;
     }
 }
+}
+/* =========================================================
+   CREST & CLOVE
+   FINAL RESPONSIVE MASTER OVERRIDE
+   Desktop + Laptop + Tablet + Mobile + 360px
+   Paste at VERY END of Responsive.css
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL SAFETY
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container,
+.container-fluid {
+    width: 100%;
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1400px+
+   ========================================================= */
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1320px;
+    }
+
+    .section-top {
+        padding: 10px 0;
+    }
+
+    .contact-inf,
+    .free-shipping,
+    .wishlist-cart {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    .menue ul {
+        gap: 25px;
+    }
+
+    .menue ul a {
+        font-size: 15px;
+    }
+
+    .Welcome {
+        padding: 70px 40px;
+    }
+
+    .banner-mainheading p {
+        font-size: 38px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 65px;
+    }
+
+    .banner-inf p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .Shop-collection h2 {
+        font-size: 40px;
+    }
+
+    .design-inf h3 {
+        font-size: 38px;
+    }
+
+    .design-inf p {
+        font-size: 15px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 70px;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 45px;
+    }
+
+    .catalogue-inf {
+        padding: 80px 60px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 48px;
+    }
+
+    .catalogue-inf p {
+        font-size: 15px;
+    }
+
+    .our-customer h3 {
+        font-size: 45px;
+    }
+}
+
+
+/* =========================================================
+   DESKTOP / LAPTOP
+   1200px - 1399px
+   ========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .menue ul {
+        gap: 20px;
+    }
+
+    .menue ul a {
+        font-size: 14px;
+    }
+
+    .banner-mainheading p {
+        font-size: 34px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 58px;
+    }
+
+    .banner-inf p {
+        font-size: 14px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 36px;
+    }
+
+    .design-inf h3 {
+        font-size: 34px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 62px;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 42px;
+    }
+
+    .catalogue-inf {
+        padding: 70px 50px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 43px;
+    }
+
+    .our-customer h3 {
+        font-size: 42px;
+    }
+}
+
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+   992px - 1199px
+   ========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .section-top {
+        padding: 7px 0;
+    }
+
+    .contact-inf,
+    .free-shipping,
+    .wishlist-cart {
+        font-size: 11px;
+    }
+
+    header {
+        padding: 14px 0;
+    }
+
+    header .logo img {
+        max-width: 110px;
+    }
+
+    .menue ul {
+        gap: 12px;
+    }
+
+    .menue ul a {
+        font-size: 11px;
+    }
+
+    .cart {
+        font-size: 10px;
+    }
+
+    .Welcome {
+        padding: 45px 25px;
+    }
+
+    .banner-mainheading p {
+        font-size: 28px;
+        letter-spacing: 5px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 43px;
+        line-height: 1.15;
+    }
+
+    .banner-inf p {
+        font-size: 12px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 30px;
+    }
+
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 20px;
+    }
+
+    .card1 a,
+    .card3-inf a {
+        font-size: 11px;
+    }
+
+    .design-essential {
+        padding: 45px 30px;
+    }
+
+    .design-inf h3 {
+        font-size: 28px;
+    }
+
+    .design-inf p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .crestclove {
+        height: 60vh;
+        min-height: 420px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 52px;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 34px;
+    }
+
+    .ourshop-inf p {
+        font-size: 12px;
+    }
+
+    .catalogue-inf {
+        padding: 55px 35px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 35px;
+    }
+
+    .catalogue-inf p {
+        font-size: 12px;
+    }
+
+    .our-customer h3 {
+        font-size: 35px;
+    }
+
+    .our-customer p {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 50px 35px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    /* TOP */
+
+    .section-top {
+        padding: 6px 0;
+    }
+
+    .contact-inf,
+    .free-shipping,
+    .wishlist-cart {
+        font-size: 10px;
+    }
+
+    .contact-inf {
+        gap: 4px;
+    }
+
+    .free-shipping p {
+        font-size: 9px;
+    }
+
+    .wishlist-cart {
+        gap: 5px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 8px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding: 12px 0;
+    }
+
+    header .logo img {
+        max-width: 105px;
+    }
+
+    .menue {
+        width: 100%;
+    }
+
+    .menue ul {
+        justify-content: center;
+        gap: 8px 14px;
+        padding: 0;
+        margin: 8px 0;
+        flex-wrap: wrap;
+    }
+
+    .menue ul a {
+        font-size: 10px;
+    }
+
+    .cart {
+        text-align: center;
+        margin: 5px 0 0;
+        font-size: 9px;
+    }
+
+
+    /* BANNER */
+
+    .banner img {
+        width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    }
+
+
+    /* WELCOME */
+
+    .Welcome {
+        padding: 35px 25px;
+    }
+
+    .banner-mainheading p {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .banner-inf p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+
+    /* COLLECTION */
+
+    .shop-section {
+        padding: 40px 0;
+    }
+
+    .Shop-collection h2 {
+        font-size: 28px;
+    }
+
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 18px;
+    }
+
+    .card1 a,
+    .card3-inf a {
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+
+
+    /* DESIGN */
+
+    .design-essential {
+        padding: 40px 25px;
+    }
+
+    .design-inf {
+        padding: 25px 0;
+    }
+
+    .design-inf h3 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .design-inf p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+
+    /* CREST CLOVE */
+
+    .crestclove {
+        height: 55vh;
+        min-height: 350px;
+        background-position: center;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .crest-clove-inf a {
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+
+
+    /* OUR SHOP */
+
+    .our-shop {
+        padding: 40px 0;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 32px;
+    }
+
+    .ourshop-inf p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .shop-card1-inf h4 {
+        font-size: 15px;
+    }
+
+    .shop-card1-inf p {
+        font-size: 10px;
+    }
+
+    .shop-card1-price span {
+        font-size: 16px;
+    }
+
+    .shop-card1-price a {
+        font-size: 10px;
+    }
+
+
+    /* CATALOGUE */
+
+    .catalogue-inf {
+        padding: 45px 30px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 32px;
+    }
+
+    .catalogue-inf p {
+        font-size: 11px;
+        line-height: 1.65;
+    }
+
+    .catalogue-inf a {
+        font-size: 10px;
+    }
+
+
+    /* CUSTOMERS */
+
+    .Our-Happy-Customers {
+        padding: 45px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 32px;
+    }
+
+    .our-customer p {
+        font-size: 11px;
+    }
+
+    .Ann-peterson h4 {
+        font-size: 17px;
+    }
+
+    .Ann-peterson p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 45px 25px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 20px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p {
+        font-size: 10px;
+    }
+
+    .links li {
+        font-size: 10px;
+    }
+
+    .Reserved p {
+        font-size: 9px;
+    }
+}
+
+
+/* =========================================================
+   LARGE MOBILE
+   576px - 767px
+   ========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    /* TOP */
+
+    .section-top {
+        padding: 6px 0;
+    }
+
+    .contact-inf {
+        gap: 4px;
+    }
+
+    .contact-inf span {
+        font-size: 9px;
+    }
+
+    .contact-inf a {
+        font-size: 9px;
+    }
+
+    .free-shipping p {
+        font-size: 9px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 8px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding: 10px 0;
+    }
+
+    header .logo img {
+        max-width: 85px;
+    }
+
+    .menue ul {
+        gap: 7px 12px;
+        justify-content: center;
+    }
+
+    .menue ul a {
+        font-size: 9px;
+    }
+
+    .cart {
+        font-size: 8px;
+        text-align: center;
+        margin: 5px 0 0;
+    }
+
+
+    /* BANNER */
+
+    .banner img {
+        min-height: 200px;
+        object-fit: cover;
+    }
+
+
+    /* WELCOME */
+
+    .Welcome {
+        padding: 30px 20px;
+    }
+
+    .banner-mainheading p {
+        font-size: 21px;
+        letter-spacing: 3px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 31px;
+        line-height: 1.2;
+    }
+
+    .banner-inf p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .facebook,
+    .twitter,
+    .insta,
+    .linkedin {
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+
+
+    /* COLLECTION */
+
+    .shop-section {
+        padding: 30px 0;
+    }
+
+    .Shop-collection h2 {
+        font-size: 23px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 17px;
+    }
+
+    .card1 a,
+    .card3-inf a {
+        font-size: 10px;
+        padding: 6px 17px;
+    }
+
+
+    /* DESIGN */
+
+    .design-essential {
+        padding: 30px 20px;
+    }
+
+    .design-inf {
+        padding: 20px 0 25px;
+    }
+
+    .design-inf h3 {
+        font-size: 22px;
+    }
+
+    .design-inf p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .design-inf a {
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+
+
+    /* CREST */
+
+    .crestclove {
+        height: 50vh;
+        min-height: 300px;
+        background-position: center;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .crest-clove-inf a {
+        font-size: 9px;
+        padding: 6px 17px;
+    }
+
+
+    /* OUR SHOP */
+
+    .our-shop {
+        padding: 35px 0;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 28px;
+    }
+
+    .ourshop-inf p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .shop-card1-inf h4 {
+        font-size: 15px;
+    }
+
+    .shop-card1-inf p {
+        font-size: 10px;
+    }
+
+    .shop-card1-price span {
+        font-size: 16px;
+    }
+
+    .shop-card1-price a {
+        font-size: 10px;
+    }
+
+
+    /* CATALOGUE */
+
+    .catalogue-inf {
+        padding: 35px 20px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 27px;
+    }
+
+    .catalogue-inf p {
+        font-size: 10px;
+        line-height: 1.65;
+    }
+
+    .catalogue-inf a {
+        font-size: 9px;
+    }
+
+
+    /* CUSTOMERS */
+
+    .Our-Happy-Customers {
+        padding: 35px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 27px;
+    }
+
+    .our-customer p {
+        font-size: 10px;
+    }
+
+    .Ann-peterson {
+        padding: 18px 15px;
+    }
+
+    .Ann-peterson h4 {
+        font-size: 16px;
+    }
+
+    .Ann-peterson p {
+        font-size: 10px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 35px 20px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 19px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p {
+        font-size: 10px;
+    }
+
+    .links li {
+        font-size: 10px;
+    }
+}
+
+
+/* =========================================================
+   NORMAL MOBILE
+   400px - 575px
+   ========================================================= */
+
+@media (min-width: 400px) and (max-width: 575.98px) {
+
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* TOP */
+
+    .section-top {
+        padding: 5px 0;
+    }
+
+    .contact-inf {
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+
+    .contact-inf span {
+        font-size: 8px;
+    }
+
+    .contact-inf a {
+        font-size: 8px;
+    }
+
+    .free-shipping p {
+        font-size: 8px;
+    }
+
+    .wishlist-cart {
+        gap: 3px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 7px;
+    }
+
+    .contact-inf img,
+    .wishlist-cart img {
+        max-width: 12px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding: 8px 0 10px;
+    }
+
+    header .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header .logo img {
+        max-width: 65px;
+    }
+
+    .menue ul {
+        gap: 6px 9px;
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    .menue ul a {
+        font-size: 7.5px;
+    }
+
+    .cart {
+        font-size: 7px;
+        margin: 4px 0 0;
+        text-align: center;
+    }
+
+    .cartshop {
+        max-width: 15px;
+        padding: 2px;
+        margin-left: 3px;
+    }
+
+
+    /* BANNER */
+
+    .banner img {
+        min-height: 160px;
+        object-fit: cover;
+    }
+
+
+    /* WELCOME */
+
+    .Welcome {
+        padding: 25px 15px;
+    }
+
+    .banner-mainheading p {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .banner-inf p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        gap: 5px;
+    }
+
+    .facebook,
+    .twitter,
+    .insta,
+    .linkedin {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+
+
+    /* COLLECTION */
+
+    .shop-section {
+        padding: 30px 0 20px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        font-size: 9px;
+        padding: 6px 10px;
+    }
+
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 16px;
+    }
+
+    .card1 a,
+    .card3-inf a {
+        font-size: 9px;
+        padding: 6px 15px;
+    }
+
+
+    /* DESIGN */
+
+    .design-essential {
+        padding: 28px 15px;
+    }
+
+    .design-inf {
+        padding: 20px 0 25px;
+    }
+
+    .design-inf h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .design-inf p {
+        font-size: 10px;
+        line-height: 1.7;
+    }
+
+    .design-inf a {
+        font-size: 9px;
+        padding: 6px 18px;
+    }
+
+
+    /* CREST */
+
+    .crestclove {
+        height: 45vh;
+        min-height: 270px;
+        background-position: center;
+    }
+
+    .crest-clove-inf {
+        padding-bottom: 15px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    .crest-clove-inf a {
+        font-size: 9px;
+        padding: 6px 16px;
+    }
+
+
+    /* OUR SHOP */
+
+    .our-shop {
+        padding: 30px 0;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 26px;
+    }
+
+    .ourshop-inf p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .shop-card1 {
+        margin-bottom: 20px;
+    }
+
+    .shop-card1-inf {
+        padding: 9px 12px;
+    }
+
+    .shop-card1-inf h4 {
+        font-size: 14px;
+    }
+
+    .shop-card1-inf p {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+    .shop-card1-price {
+        padding: 8px 12px;
+    }
+
+    .shop-card1-price span {
+        font-size: 15px;
+    }
+
+    .shop-card1-price a {
+        font-size: 9px;
+        padding-left: 10px;
+    }
+
+
+    /* CATALOGUE */
+
+    .catalogue-inf {
+        padding: 32px 15px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 23px;
+        line-height: 1.25;
+        letter-spacing: 0;
+    }
+
+    .catalogue-inf p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .catalogue-inf a {
+        font-size: 9px;
+        padding: 6px 18px;
+    }
+
+
+    /* CUSTOMERS */
+
+    .Our-Happy-Customers {
+        padding: 30px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 23px;
+    }
+
+    .our-customer p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .Ann-peterson {
+        padding: 18px 12px;
+    }
+
+    .Ann-peterson h4 {
+        font-size: 15px;
+    }
+
+    .Ann-peterson p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .viewall {
+        height: 130px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 30px 15px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .enteryour-email input {
+        width: 100%;
+        padding: 9px 10px;
+        font-size: 11px;
+    }
+
+    .subscribe a {
+        width: 100%;
+        padding: 9px;
+        font-size: 10px;
+    }
+
+    .links li {
+        font-size: 10px;
+        padding-bottom: 7px;
+    }
+
+    .Reserved p {
+        font-size: 9px;
+    }
+
+    .payment img {
+        max-width: 160px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   320px - 399px
+   ========================================================= */
+
+@media (min-width: 320px) and (max-width: 399.98px) {
+
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .row {
+        --bs-gutter-x: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+    /* TOP */
+
+    .section-top {
+        padding: 4px 0;
+    }
+
+    .contact-inf {
+        gap: 3px;
+    }
+
+    .contact-inf span {
+        font-size: 7px;
+    }
+
+    .contact-inf a {
+        font-size: 7px;
+    }
+
+    .contact-inf img {
+        max-width: 10px;
+    }
+
+    .free-shipping p {
+        font-size: 7px;
+        line-height: 1.2;
+    }
+
+    .wishlist-cart {
+        gap: 2px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 6px;
+        margin: 0;
+    }
+
+    .wishlist-cart img {
+        max-width: 10px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding: 7px 0 9px;
+    }
+
+    header .logo img {
+        max-width: 55px;
+    }
+
+    .menue ul {
+        gap: 5px 7px;
+        margin: 4px 0;
+    }
+
+    .menue ul a {
+        font-size: 6.5px;
+    }
+
+    .cart {
+        font-size: 6px;
+        margin: 3px 0 0;
+    }
+
+    .cartshop {
+        max-width: 13px;
+        padding: 2px;
+        margin-left: 2px;
+    }
+
+
+    /* BANNER */
+
+    .banner img {
+        min-height: 140px;
+        object-fit: cover;
+    }
+
+
+    /* WELCOME */
+
+    .Welcome {
+        padding: 22px 10px;
+    }
+
+    .banner-mainheading p {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 22px;
+        letter-spacing: .5px;
+        line-height: 1.2;
+    }
+
+    .banner-inf p {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .social-icons {
+        gap: 4px;
+    }
+
+    .facebook,
+    .twitter,
+    .insta,
+    .linkedin {
+        padding: 4px 6px;
+        font-size: 8px;
+    }
+
+
+    /* COLLECTION */
+
+    .shop-section {
+        padding: 25px 0 18px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 18px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        font-size: 8px;
+        padding: 5px 8px;
+    }
+
+    .card1 h3,
+    .card3-inf h3 {
+        font-size: 14px;
+    }
+
+    .card1 a,
+    .card3-inf a {
+        font-size: 8px;
+        padding: 5px 12px;
+    }
+
+
+    /* DESIGN */
+
+    .design-essential {
+        padding: 25px 10px;
+    }
+
+    .design-inf {
+        padding: 18px 0 22px;
+    }
+
+    .design-inf h3 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .design-inf p {
+        font-size: 9px;
+        line-height: 1.65;
+    }
+
+    .design-inf a {
+        font-size: 8px;
+        padding: 6px 15px;
+    }
+
+
+    /* CREST */
+
+    .crestclove {
+        height: 42vh;
+        min-height: 240px;
+    }
+
+    .crest-clove-inf {
+        padding-bottom: 12px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 22px;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+    .crest-clove-inf a {
+        font-size: 8px;
+        padding: 5px 13px;
+    }
+
+
+    /* OUR SHOP */
+
+    .our-shop {
+        padding: 25px 0;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 22px;
+    }
+
+    .ourshop-inf p {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .shop-card1 {
+        margin-bottom: 18px;
+    }
+
+    .shop-card1-inf {
+        padding: 8px 10px;
+    }
+
+    .shop-card1-inf h4 {
+        font-size: 13px;
+    }
+
+    .shop-card1-inf p {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .shop-card1-price {
+        padding: 7px 10px;
+    }
+
+    .shop-card1-price span {
+        font-size: 14px;
+    }
+
+    .shop-card1-price a {
+        font-size: 8px;
+        padding-left: 8px;
+    }
+
+
+    /* CATALOGUE */
+
+    .catalogue-inf {
+        padding: 28px 12px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+
+    .catalogue-inf p {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .catalogue-inf a {
+        font-size: 8px;
+        padding: 5px 15px;
+    }
+
+
+    /* CUSTOMERS */
+
+    .Our-Happy-Customers {
+        padding: 25px 0;
+    }
+
+    .our-customer h3 {
+        font-size: 20px;
+    }
+
+    .our-customer p {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .Ann-peterson {
+        padding: 15px 10px;
+    }
+
+    .Ann-peterson h4 {
+        font-size: 14px;
+    }
+
+    .Ann-peterson p {
+        font-size: 9px;
+    }
+
+    .viewall {
+        height: 110px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 25px 10px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 17px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .enteryour-email input {
+        width: 100%;
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .subscribe a {
+        width: 100%;
+        padding: 8px;
+        font-size: 9px;
+    }
+
+    .links li {
+        font-size: 9px;
+        padding-bottom: 6px;
+    }
+
+    .Reserved p {
+        font-size: 8px;
+    }
+
+    .payment img {
+        max-width: 140px;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL
+   BELOW 320px
+   ========================================================= */
+
+@media (max-width: 319.98px) {
+
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+
+
+    /* TOP */
+
+    .contact-inf span {
+        font-size: 6px;
+    }
+
+    .contact-inf a {
+        font-size: 6px;
+    }
+
+    .free-shipping p {
+        font-size: 6px;
+    }
+
+    .wishlist-cart p,
+    .wishlist-cart span {
+        font-size: 5px;
+    }
+
+
+    /* HEADER */
+
+    header .logo img {
+        max-width: 48px;
+    }
+
+    .menue ul {
+        gap: 4px 6px;
+    }
+
+    .menue ul a {
+        font-size: 6px;
+    }
+
+    .cart {
+        font-size: 5px;
+    }
+
+
+    /* WELCOME */
+
+    .banner-mainheading p {
+        font-size: 13px;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 20px;
+    }
+
+    .banner-inf p {
+        font-size: 8px;
+    }
+
+
+    /* SECTIONS */
+
+    .Shop-collection h2 {
+        font-size: 16px;
+    }
+
+    .design-inf h3 {
+        font-size: 16px;
+    }
+
+    .design-inf p {
+        font-size: 8px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 19px;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 20px;
+    }
+
+    .ourshop-inf p {
+        font-size: 8px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 18px;
+    }
+
+    .catalogue-inf p {
+        font-size: 8px;
+    }
+
+    .our-customer h3 {
+        font-size: 18px;
+    }
+
+    .our-customer p {
+        font-size: 8px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 20px 8px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 15px;
+    }
+
+    .contact-us p,
+    .mail span,
+    .phone span,
+    .subscribe p,
+    .links li {
+        font-size: 8px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE ROW / COLUMN SAFETY
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .shop-section .row,
+    .design-essential .row,
+    .our-shop .row,
+    .catalogue .row,
+    .Our-Happy-Customers .row,
+    footer .row {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .shop-section [class*="col-"],
+    .design-essential [class*="col-"],
+    .our-shop [class*="col-"],
+    .catalogue [class*="col-"],
+    .Our-Happy-Customers [class*="col-"],
+    footer [class*="col-"] {
+        max-width: 100%;
+    }
+
+    .shop-card1 img,
+    .card1 img,
+    .essential-chefs img,
+    .catalogue-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .catalogue-img {
+        height: auto !important;
+    }
+
+    .catalogue-img img {
+        object-fit: cover;
+    }
+}
+
+
+/* =========================================================
+   PREVENT TEXT OVERFLOW
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    span {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .crest-clove-inf h2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .banner-mainheading h1,
+    .banner-mainheading p {
+        max-width: 100%;
+    }
+}
+
+
+/* =========================================================
+   SHOP PAGE MOBILE FLOW
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .shop > .container > .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        position: relative !important;
+        clear: both !important;
+        margin: 0 !important;
+    }
+
+    .shop > .container > .row + .row {
+        margin-top: 25px !important;
+    }
+
+    .price-range {
+        position: static !important;
+        width: 100% !important;
+        margin: 0 0 20px 0 !important;
+        transform: none !important;
+    }
+
+    .price-range h4 {
+        position: static !important;
+        font-size: 23px !important;
+        margin: 0 0 15px 0 !important;
+    }
+
+    .shop-product-col {
+        position: relative !important;
+        width: 100%;
+        margin: 0 0 25px 0 !important;
+        transform: none !important;
+    }
+}
+
+
+/* =========================================================
+   500% ZOOM STABILITY
+   Browser zoom 500% normally enters very small CSS viewport
+   ========================================================= */
+
+@media (max-width: 420px) {
+
+    html,
+    body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    * {
+        max-width: 100%;
+    }
+
+    .container,
+    .container-fluid {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .banner img,
+    .card1 img,
+    .shop-card1 img,
+    .essential-chefs img,
+    .catalogue-img img {
+        max-width: 100% !important;
+    }
+
+    .crestclove {
+        overflow: hidden;
+    }
+
+    .menue ul {
+        flex-wrap: wrap !important;
+    }
+
+    .social-icons {
+        flex-wrap: wrap !important;
+    }
+
+    .links {
+        max-width: 100%;
+    }
+
+    input,
+    textarea,
+    select,
+    button {
+        max-width: 100%;
+    }
+}
+
+
+/* =========================================================
+   FINAL 360px
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+    .section-top .container,
+    header .container {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+
+    .banner-mainheading h1 {
+        font-size: 21px;
+    }
+
+    .banner-mainheading p {
+        font-size: 14px;
+    }
+
+    .banner-inf p {
+        font-size: 9px;
+    }
+
+    .Shop-collection h2 {
+        font-size: 17px;
+    }
+
+    .design-inf h3 {
+        font-size: 17px;
+    }
+
+    .crest-clove-inf h2 {
+        font-size: 21px;
+    }
+
+    .ourshop-inf h3 {
+        font-size: 21px;
+    }
+
+    .catalogue-inf h2 {
+        font-size: 19px;
+    }
+
+    .our-customer h3 {
+        font-size: 19px;
+    }
+
+    .contact-us h4,
+    .subscribe h4,
+    .Quick-link h4 {
+        font-size: 16px;
+    }
+}
