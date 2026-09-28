@@ -225,7 +225,7 @@ header{
     background-color: white;
     padding: 100px 0px;
     color: white;
-    background-image:url(../Images/background.png) ;
+    background-image:url(../images/background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -413,7 +413,7 @@ color: #90666c;
     padding: 0px !important;
 }
 .Parent7{
-    background-image:url(../Images/background.png) ;
+    background-image:url(../images/background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 0px 20px;
@@ -541,7 +541,7 @@ padding-top: 4px;
 
 /* About css*/
 .section1{
-    background-image:url(../Images/background2.png) ;
+    background-image:url(../images/background2.png) ;
      background-repeat: no-repeat;
      background-size: cover;
     width: 100%;
@@ -569,7 +569,7 @@ background-color: #FFFF;
  }
  .Parent3{
     color: white;
-    background-image:url(../Images/background.png) ;
+    background-image:url(../images/background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -626,7 +626,7 @@ background-color: #FFFF;
 }
 /* Product css*/
 .First-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -651,7 +651,7 @@ background-color: #FFFF;
 }
 /* Testimonials*/
 .Testimonials-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -750,7 +750,7 @@ background-color: #FFFF;
 }
 /* Contact us*/
 .Contactus-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -917,7 +917,7 @@ background-color: #FFFF;
 }
 /*Wishlist css */
 .Wishlist-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1020,7 +1020,7 @@ background-color: #FFFF;
 
 /* Product Details */
 .Productdetail-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1043,7 +1043,7 @@ background-color: #FFFF;
 }
 /* MY ACCOUNTS CSS */
 .MyAccount-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1232,7 +1232,7 @@ font-weight: 500;
 
 /*Cart  css*/
 .Cart-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1384,7 +1384,7 @@ font-weight: 500;
 }
 /* Checkout css*/
 .Checkout-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1597,7 +1597,7 @@ font-weight: 500;
 }
 /* Product-details Css*/
 .P-detail-section{
-    background-image:url(../Images/background2.png);
+    background-image:url(../images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
